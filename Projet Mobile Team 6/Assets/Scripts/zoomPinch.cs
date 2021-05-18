@@ -11,10 +11,10 @@ public class zoomPinch : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        /*if (Input.GetMouseButtonDown(0))
         {
             touchStart = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        }
+        }*/
         if (Input.touchCount == 2)
         {
             Touch touchZero = Input.GetTouch(0);
@@ -30,11 +30,11 @@ public class zoomPinch : MonoBehaviour
 
             zoom(difference * 0.01f);
         }
-        else if (Input.GetMouseButton(0))
+        /*else if (Input.GetMouseButton(0))
         {
             Vector3 direction = touchStart - Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Camera.main.transform.position += direction;
-        }
+        }*/
         zoom(Input.GetAxis("Mouse ScrollWheel"));
     }
 
