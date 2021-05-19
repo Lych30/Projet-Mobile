@@ -6,19 +6,47 @@ using Pathfinding;
 public class check : MonoBehaviour
 {
     private Transform[] attaches;
-    AIPath path;
+    AIPath _ai;
     void Start()
     {
+
         var gg = AstarPath.active.data.gridGraph;
-        path = GetComponent<AIPath>();
-        for (int z = 0; z < gg.depth; z++)
+        _ai = GetComponent<AIPath>();
+
+        //CHECK DE TOUTES LES NODES SI BESOINS
+        /*for (int z = 0; z < gg.depth; z++)
         {
             for (int x = 0; x < gg.width; x++)
             {
                
             }
-        }
-        Debug.Log(path.velocity);
+        }*/
+       
     }
-   
+    private void Update()
+    {
+        if(Mathf.Abs(_ai.velocity.x)> Mathf.Abs(_ai.velocity.y))
+        {
+            if (_ai.velocity.x > 0)
+            {
+                Debug.Log("Right");
+            }
+            else
+            {
+                Debug.Log("Left");
+            }
+        }
+        else
+        {
+            if (_ai.velocity.y > 0)
+            {
+                Debug.Log("Up");
+            }
+            else
+            {
+                Debug.Log("Down");
+            }
+        }
+    }
+
 }
