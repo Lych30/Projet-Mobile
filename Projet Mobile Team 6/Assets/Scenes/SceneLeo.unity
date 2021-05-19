@@ -416,6 +416,10 @@ PrefabInstance:
       value: TestTrap
       objectReference: {fileID: 0}
     - target: {fileID: 1943747085367072195, guid: ddb758226666b3b4dab2fc1f733833b9, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1943747085367072195, guid: ddb758226666b3b4dab2fc1f733833b9, type: 3}
       propertyPath: m_TagString
       value: Trap
       objectReference: {fileID: 0}
@@ -452,6 +456,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 3395966226569491097, guid: ddb758226666b3b4dab2fc1f733833b9, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3395966226569491097, guid: ddb758226666b3b4dab2fc1f733833b9, type: 3}
       propertyPath: m_Color.b
       value: 1
       objectReference: {fileID: 0}
@@ -477,11 +485,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4150045265825694537, guid: ddb758226666b3b4dab2fc1f733833b9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.9346316
+      value: -1.33
       objectReference: {fileID: 0}
     - target: {fileID: 4150045265825694537, guid: ddb758226666b3b4dab2fc1f733833b9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.87
+      value: 6.7
       objectReference: {fileID: 0}
     - target: {fileID: 4150045265825694537, guid: ddb758226666b3b4dab2fc1f733833b9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -600,7 +608,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 474956554}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.48, y: 4.94, z: -10}
+  m_LocalPosition: {x: -1.48, y: -0.41, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1537,7 +1545,7 @@ MonoBehaviour:
   version: 2
   radius: 0.59
   height: 2.09
-  repathRate: 0.5
+  repathRate: 0.25
   canSearch: 1
   canMove: 1
   maxSpeed: 1
