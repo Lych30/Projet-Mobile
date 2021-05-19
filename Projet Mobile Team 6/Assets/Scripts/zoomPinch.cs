@@ -11,6 +11,8 @@ public class zoomPinch : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+      
+
         if (Input.GetMouseButtonDown(0))
         {
             touchStart = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -35,6 +37,18 @@ public class zoomPinch : MonoBehaviour
             Vector3 direction = touchStart - Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Camera.main.transform.position += direction;
         }
+        if (Input.touchCount == 1)
+        {
+            Touch touch = Input.GetTouch(0);
+            var TouchPos = Camera.main.ScreenPointToRay(touch.position);
+            RaycastHit2D hit = Physics2D.Raycast(TouchPos.origin, TouchPos.direction, Mathf.Infinity);
+            if (transform.CompareTag("Trap"))
+            {
+                enabled = false;
+            }
+            
+        }
+
         zoom(Input.GetAxis("Mouse ScrollWheel"));
     }
 
