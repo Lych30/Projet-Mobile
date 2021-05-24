@@ -3,50 +3,64 @@ using System.Collections.Generic;
 using UnityEngine;
 using Pathfinding;
 
-public class check : MonoBehaviour
-{
-    private Transform[] attaches;
-    AIPath _ai;
-    void Start()
+    public class check : MonoBehaviour
     {
-
-        var gg = AstarPath.active.data.gridGraph;
-        _ai = GetComponent<AIPath>();
-
-        //CHECK DE TOUTES LES NODES SI BESOINS
-        /*for (int z = 0; z < gg.depth; z++)
+        private Transform[] attaches;
+        [SerializeField] GameObject GPS;
+        AIPath _ai;
+        void Start()
         {
-            for (int x = 0; x < gg.width; x++)
+
+            var gg = AstarPath.active.data.gridGraph;
+            _ai = GetComponent<AIPath>();
+
+            //CHECK DE TOUTES LES NODES SI BESOINS
+            /*for (int z = 0; z < gg.depth; z++)
             {
-               
-            }
-        }*/
-       
-    }
-    private void Update()
-    {
-        if(Mathf.Abs(_ai.velocity.x)> Mathf.Abs(_ai.velocity.y))
+                for (int x = 0; x < gg.width; x++)
+                {
+
+                }
+            }*/
+
+        }
+        private void Update()
         {
-            if (_ai.velocity.x > 0)
+            if (Mathf.Abs(_ai.velocity.x) > Mathf.Abs(_ai.velocity.y))
             {
-                Debug.Log("Right");
+                if (_ai.velocity.x > 0)
+                {
+                    //Debug.Log("Right");
+                }
+                else
+                {
+                    //Debug.Log("Left");
+                }
             }
             else
             {
-                Debug.Log("Left");
+                if (_ai.velocity.y > 0)
+                {
+                    //Debug.Log("Up");
+                }
+                else
+                {
+                    //Debug.Log("Down");
+                }
+            }
+
+            if (_ai.reachedEndOfPath)
+            {
+            if (GPS.GetComponent<GooglePlayGamesManager>().IsConnectedToGPS)
+            {
+                Social.ReportProgress(GPGSIds.achievement_cheers_you_lost, 100.0f, null);
             }
         }
-        else
-        {
-            if (_ai.velocity.y > 0)
-            {
-                Debug.Log("Up");
-            }
-            else
-            {
-                Debug.Log("Down");
-            }
+
         }
+
+
+
     }
 
-}
+

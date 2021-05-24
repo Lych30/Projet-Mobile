@@ -4,40 +4,47 @@ using UnityEngine;
 using UnityEngine.SocialPlatforms;
 using GooglePlayGames;
 using GooglePlayGames.BasicApi;
+using Pathfinding;
 
-public class GooglePlayGamesManager : MonoBehaviour
+namespace Pathfinding
 {
-    public bool IsConnectedToGPS;
-    private void Awake()
+    public class GooglePlayGamesManager : MonoBehaviour
     {
-        PlayGamesPlatform.DebugLogEnabled = true;
-        PlayGamesPlatform.Activate();
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-        SignInGPS();
-    }
-    void SignInGPS()
-    {
-        PlayGamesPlatform.Instance.Authenticate(SignInInteractivity.CanPromptOnce, (result) =>
+        public bool IsConnectedToGPS;
+        GooglePlayGamesManager instance;
+        private void Awake()
         {
-            switch (result)
+            PlayGamesPlatform.DebugLogEnabled = true;
+            PlayGamesPlatform.Activate();
+
+        }
+        // Start is called before the first frame update
+        void Start()
+        {
+            instance = this;
+            SignInGPS();
+            if (IsConnectedToGPS)
             {
-                case SignInStatus.Success:
-                    IsConnectedToGPS = true;
-                    break;
-                default:
-                    IsConnectedToGPS = false;
-                    break;
+                Social.ReportProgress(GPGSIds.achievement_welcome_home, 100.0f, null);
             }
 
+        }
+        void SignInGPS()
+        {
+            PlayGamesPlatform.Instance.Authenticate(SignInInteractivity.CanPromptOnce, (result) =>
+            {
+                switch (result)
+                {
+                    case SignInStatus.Success:
+                        IsConnectedToGPS = true;
+                        break;
+                    default:
+                        IsConnectedToGPS = false;
+                        break;
+                }
 
-        });
-    }
-    // Update is called once per frame
-    void Update()
-    {
-        
+
+            });
+        }
     }
 }
