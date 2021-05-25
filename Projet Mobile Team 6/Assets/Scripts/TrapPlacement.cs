@@ -5,6 +5,11 @@ using Pathfinding;
 
 public class TrapPlacement : MonoBehaviour
 {
+    private void Start()
+    {
+        GraphNode node = AstarPath.active.GetNearest(transform.position, NNConstraint.Default).node;
+        transform.position = (Vector3)node.position;
+    }
     private void OnMouseDrag()
     {
         gameObject.layer = LayerMask.NameToLayer("Default");
