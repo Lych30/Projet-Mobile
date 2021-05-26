@@ -9,6 +9,5 @@ public class updateScan : MonoBehaviour
     void Update()
     {
         AstarPath.active.Scan();
-
     }
 }

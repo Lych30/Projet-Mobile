@@ -7,10 +7,11 @@ public class TrapPlacement : MonoBehaviour
 {
     private void Start()
     {
-        GraphNode node = AstarPath.active.GetNearest(transform.position, NNConstraint.Default).node;
+        GraphNode node = AstarPath.active.GetNearest(transform.position, NNConstraint.None).node;
         transform.position = (Vector3)node.position;
+        AstarPath.active.Scan();
     }
-    private void OnMouseDrag()
+    /*private void OnMouseDrag()
     {
         gameObject.layer = LayerMask.NameToLayer("Default");
         transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -35,5 +36,5 @@ public class TrapPlacement : MonoBehaviour
     private void OnMouseDown()
     {
         Camera.main.GetComponent<zoomPinch>().enabled = false;
-    }
+    }*/
 }

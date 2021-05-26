@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
                 if (hit.transform.CompareTag("Trap"))
                 {
                     hit.transform.GetComponent<TrapTest>().enabled = true;
+                    
                 }
             }
         }
