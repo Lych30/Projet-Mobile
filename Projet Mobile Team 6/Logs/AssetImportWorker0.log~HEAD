@@ -1,0 +1,363 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'fr' Physical Memory: 16327 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Desktop/RMF Project/Projet-Mobile-main/Projet Mobile Team 6
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56582
+Successfully changed project path to: E:/Desktop/RMF Project/Projet-Mobile-main/Projet Mobile Team 6
+E:/Desktop/RMF Project/Projet-Mobile-main/Projet Mobile Team 6
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 65.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.7f1 (dd97f2c94397)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Desktop/RMF Project/Projet-Mobile-main/Projet Mobile Team 6/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX Vega (ID=0x687f)
+    Vendor:   
+    VRAM:     8119 MB
+    Driver:   27.20.15003.1004
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56364
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003137 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 62.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.351 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002359 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000210F2771020 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F1E54280 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F035AC30 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F0657D20 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F065DC90 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F067B8A0 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F07FE040 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F0553EB0 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F0553EB0 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F36AF870 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F27A8030 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F0220790 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F3470020 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\PackageToolsEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F24CE020 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F0220790 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F0806050 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F27B0A40 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F0220790 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F36AF870 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F2A22210 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F36B1B40 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F27EC030 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F2800A40 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F2800A40 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F024D150 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F2499430 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F1F09DD0 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F2249020 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F36B3880 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F2687010 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F26DDA20 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\AstarPathfindingProject.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F2499430 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F2499430 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F0677920 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F3D3D030 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F065DC90 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F024CD50 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F35BA010 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F33EC630 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F3EC2030 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F0662A80 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F3C0E050 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\AstarPathfindingProjectEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F3C0E050 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F36B3880 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F263DC20 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F26DDA20 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 63.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.154 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.1 MB.
+System memory in use after: 135.1 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3541.
+Total: 3.215800 ms (FindLiveObjects: 0.412500 ms CreateObjectMapping: 0.077300 ms MarkObjects: 2.576400 ms  DeleteObjects: 0.148600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/SceneRaph.unity
+  artifactKey: Guid(43fcc8e5c2788ef4ab8d7b09cef6689a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SceneRaph.unity using Guid(43fcc8e5c2788ef4ab8d7b09cef6689a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3957bb2d95e74573c5c579d404d5e83b') in 0.019150 seconds
+  Import took 0.023819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.438434 seconds.
+  path: Assets/Raph/Obstacle/Obstacle.prefab
+  artifactKey: Guid(9cdbac7f6f880374393eb7234fa1ec10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raph/Obstacle/Obstacle.prefab using Guid(9cdbac7f6f880374393eb7234fa1ec10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425cd72a9401c96951df56a7f0837c08') in 0.209129 seconds
+  Import took 0.214012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.561966 seconds.
+  path: Assets/Raph/OnTouchObstacle/OnTouchObstacle.prefab
+  artifactKey: Guid(fa777fc000a37e74ca7f5844e21cab30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raph/OnTouchObstacle/OnTouchObstacle.prefab using Guid(fa777fc000a37e74ca7f5844e21cab30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb8792047e4bcf67904976a187734f93') in 0.010258 seconds
+  Import took 0.015141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.393195 seconds.
+  path: Assets/Leo/Trap/TestTrap.prefab
+  artifactKey: Guid(ddb758226666b3b4dab2fc1f733833b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leo/Trap/TestTrap.prefab using Guid(ddb758226666b3b4dab2fc1f733833b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1127ff2c25f6deaa2c2d3c061cb46f03') in 0.009809 seconds
+  Import took 0.015047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.768702 seconds.
+  path: Assets/Darius/offScreen/ArrowIndicator.prefab
+  artifactKey: Guid(09cefc679ac23c54aa919111d8f3fc40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darius/offScreen/ArrowIndicator.prefab using Guid(09cefc679ac23c54aa919111d8f3fc40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12868afd318d694ed33e4ca61c94cace') in 0.022176 seconds
+  Import took 0.027104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Darius/offScreen/WhiteArrow.png
+  artifactKey: Guid(7c0ddb0218e4fb644b2ff2943db2106c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darius/offScreen/WhiteArrow.png using Guid(7c0ddb0218e4fb644b2ff2943db2106c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59425e07a7af54432ee2bf6de3b95b7') in 0.041522 seconds
+  Import took 0.045724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Darius/offScreen/WhiteBox.png
+  artifactKey: Guid(1c6867f06cc433b4bbd7169938316935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darius/offScreen/WhiteBox.png using Guid(1c6867f06cc433b4bbd7169938316935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8384c7e6490a7c81fb8f6dd300c6cb2') in 0.014549 seconds
+  Import took 0.019215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Darius/offScreen/BoxIndicator.prefab
+  artifactKey: Guid(3bb41426a165a0240b931a1f995e07cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darius/offScreen/BoxIndicator.prefab using Guid(3bb41426a165a0240b931a1f995e07cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9122ee5e7903949b03bfd30c3c6611d') in 0.009508 seconds
+  Import took 0.014428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.636228 seconds.
+  path: Assets/Sprites/master-tileset.png
+  artifactKey: Guid(94e51f55cac480b47acfb504e37678aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/master-tileset.png using Guid(94e51f55cac480b47acfb504e37678aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0c338b3ffaa65de28b6590e9169fa7') in 0.016573 seconds
+  Import took 0.021805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.624311 seconds.
+  path: Assets/Sprites/master-tileset.png
+  artifactKey: Guid(94e51f55cac480b47acfb504e37678aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/master-tileset.png using Guid(94e51f55cac480b47acfb504e37678aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9957a82e54e08f185dec72365d55ef5e') in 0.017495 seconds
+  Import took 0.022529 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002411 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000210F40F0010 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F5E35370 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F065AA80 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F233D070 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F3846260 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F6360080 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F026F420 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F07F3630 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F07F3630 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F60A1040 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F0592020 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F1F01D70 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020F26CA3200 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\PackageToolsEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F067B8A0 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F39DC6F0 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F065AA80 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F411DA20 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F39DC6F0 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F0670B70 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F36D9430 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F5323AA0 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F3C6B030 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F0670B70 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F1FED050 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F3736A60 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F0206780 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F03E2890 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F4DE5020 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F411DA20 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F407C010 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F0206780 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\AstarPathfindingProject.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F0206780 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F0565AC0 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F059AA30 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F3C87A50 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F3846070 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F3737860 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F1CE2C10 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F056DAD0 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F233D070 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F0661FA0 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F1FED050 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\AstarPathfindingProjectEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F0670B70 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F411DA20 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F33B6010 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000210F056DAD0 doesn't match image E:\Desktop\RMF Project\Projet-Mobile-main\Projet Mobile Team 6\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.057 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2988 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.4 MB.
+System memory in use after: 132.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3597.
+Total: 3.161100 ms (FindLiveObjects: 0.333700 ms CreateObjectMapping: 0.074300 ms MarkObjects: 2.596700 ms  DeleteObjects: 0.155100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
