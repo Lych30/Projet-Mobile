@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
+
 namespace Pathfinding {
 	using Pathfinding.RVO;
 	using Pathfinding.Util;
@@ -268,8 +269,9 @@ namespace Pathfinding {
 		/// So when the agent is close to the destination this method will typically be called every <see cref="repathRate"/> seconds.
 		/// </summary>
 		public virtual void OnTargetReached () {
+			
 		}
-
+		
 		/// <summary>
 		/// Called when a requested path has been calculated.
 		/// A path is first requested by <see cref="UpdatePath"/>, it is then calculated, probably in the same or the next frame.
