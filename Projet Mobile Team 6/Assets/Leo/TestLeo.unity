@@ -1928,7 +1928,12 @@ PrefabInstance:
       propertyPath: pickNextWaypointDist
       value: 1.11
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8903657096720210578, guid: ad49521fc6795894eb2c595af1b119e5, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 458980256}
+    m_RemovedComponents:
+    - {fileID: 7184029796717279056, guid: ad49521fc6795894eb2c595af1b119e5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ad49521fc6795894eb2c595af1b119e5, type: 3}
 --- !u!1 &1670901263
 GameObject:

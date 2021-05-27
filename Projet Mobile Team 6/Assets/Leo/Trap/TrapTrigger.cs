@@ -109,7 +109,6 @@ public class TrapTrigger : MonoBehaviour
 
             case Object.chandelier:
                 GetComponent<chandelier>().enabled = true;
-
                 break;
 
             case Object.library:

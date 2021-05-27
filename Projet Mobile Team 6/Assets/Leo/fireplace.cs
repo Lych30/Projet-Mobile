@@ -4,11 +4,33 @@ using UnityEngine;
 
 public class fireplace : MonoBehaviour
 {
-    public GameObject Flame;
-    private void Start()
+    public GameObject Flamme;
+    private SpriteRenderer rend;
+    private Shader shaderDefault;
+    private Collider2D coll2d;
+    private Collider2D herocoll2d;
+    private const float GRIDSIZE = 3;
+    private bool used;
+    private void OnEnable()
     {
-        Instantiate(Flame, new Vector3(transform.position.x + GetComponent<TrapTrigger>().scaleX, transform.position.y + GetComponent<TrapTrigger>().scaleY), new Quaternion());
-        Instantiate(Flame, new Vector3(transform.position.x + 2 * GetComponent<TrapTrigger>().scaleX, transform.position.y + 2 * GetComponent<TrapTrigger>().scaleY), new Quaternion());
-        AstarPath.active.Scan();
+        used = false;
+        coll2d = GetComponent<Collider2D>();
+        herocoll2d = GameObject.Find("Hero").GetComponent<Collider2D>();
+        shaderDefault = Shader.Find("Unlit/Transparent");
+        rend = GetComponent<SpriteRenderer>();
     }
+
+
+    private void OnMouseDown()
+    {
+        if (!used)
+        {
+            used = true;
+            rend.material.shader = shaderDefault;
+            Instantiate(Flamme, new Vector3(transform.position.x, transform.position.y - GRIDSIZE), new Quaternion());
+            Instantiate(Flamme, new Vector3(transform.position.x, transform.position.y - 2 * GRIDSIZE), new Quaternion());
+            AstarPath.active.Scan();
+        }
+    }
+
 }
