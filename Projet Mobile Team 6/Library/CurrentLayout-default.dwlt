@@ -19,9 +19,15 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
+<<<<<<< Updated upstream
   m_Title: Inspector
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 542}
+=======
+  m_Title: Hierarchy
+  m_RootView: {fileID: 6}
+  m_MinSize: {x: 875, y: 300}
+>>>>>>> Stashed changes
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -74,8 +80,13 @@ MonoBehaviour:
   m_MinSize: {x: 880, y: 492}
   m_MaxSize: {x: 16005, y: 14042}
   vertical: 0
+<<<<<<< Updated upstream
   controlID: 85
 --- !u!114 &4
+=======
+  controlID: 117
+--- !u!114 &3
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -253,8 +264,13 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 492}
   m_MaxSize: {x: 12005, y: 14042}
   vertical: 1
+<<<<<<< Updated upstream
   controlID: 94
 --- !u!114 &11
+=======
+  controlID: 16
+--- !u!114 &10
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -279,8 +295,13 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
+<<<<<<< Updated upstream
   controlID: 95
 --- !u!114 &12
+=======
+  controlID: 17
+--- !u!114 &11
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2635,22 +2656,37 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< Updated upstream
     - Assets/Leo/Trap
+=======
+    - "Assets/Yoan/Tilemap Yoan/Tile non d\xE9coup\xE9e"
+>>>>>>> Stashed changes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
+<<<<<<< Updated upstream
   - Assets/Leo/Trap
+=======
+  - "Assets/Yoan/Tilemap Yoan/Tile non d\xE9coup\xE9e"
+>>>>>>> Stashed changes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Projet Mobile\Projet Mobile Team 6
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< Updated upstream
     scrollPos: {x: 0, y: 79}
     m_SelectedIDs: 264d0000
     m_LastClickedID: 19750
     m_ExpandedIDs: 00000000e24c0000e44c0000e64c0000e84c0000384d0000144e0000aa5300006456000000ca9a3bffffff7f
+=======
+    scrollPos: {x: 0, y: 110}
+    m_SelectedIDs: 244f0000
+    m_LastClickedID: 20260
+    m_ExpandedIDs: 00000000924c0000944c0000964c0000984c0000e64c0000ea4c0000ec4c000000ca9a3b
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2706,7 +2742,11 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
+<<<<<<< Updated upstream
     m_ExpandedInstanceIDs: c62300006a52000090570000e0570000dc5700002e4f0000
+=======
+    m_ExpandedInstanceIDs: c62300006a52000090570000e0570000dc5700004a5200008c520000e6520000684c0000
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2799,9 +2839,15 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< Updated upstream
       m_SelectedIDs: 62aaffff
       m_LastClickedID: -21918
       m_ExpandedIDs: 4848ffff6248ffff62aaffff0cabffff5aaeffff96b0ffff8cb2ffffd2edffff38fbffff3a4c0000bc700000
+=======
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 40fbffff104c0000
+>>>>>>> Stashed changes
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -2861,9 +2907,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< Updated upstream
     m_Target: {x: -5.272571, y: 23.610106, z: -304.6438}
     speed: 2
     m_Value: {x: -5.272571, y: 23.610106, z: -304.6438}
+=======
+    m_Target: {x: 12.942757, y: 21.684193, z: -145.08725}
+    speed: 2
+    m_Value: {x: 13.005925, y: 21.54965, z: -145.04558}
+>>>>>>> Stashed changes
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -2914,9 +2966,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< Updated upstream
     m_Target: 3.6092086
     speed: 2
     m_Value: 3.6092086
+=======
+    m_Target: 9.677885
+    speed: 2
+    m_Value: 9.261134
+>>>>>>> Stashed changes
   m_Ortho:
     m_Target: 1
     speed: 2
