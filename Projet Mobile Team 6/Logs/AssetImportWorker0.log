@@ -1,0 +1,949 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 18363.1440; Version 1909; 64bit' Language: 'fr' Physical Memory: 16196 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/unity projects/Projet Mobile/Projet-Mobile/Projet Mobile Team 6
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64894
+Successfully changed project path to: D:/unity projects/Projet Mobile/Projet-Mobile/Projet Mobile Team 6
+D:/unity projects/Projet Mobile/Projet-Mobile/Projet Mobile Team 6
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 68.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.7f1 (dd97f2c94397)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity projects/Projet Mobile/Projet-Mobile/Projet Mobile Team 6/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f11)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   27.21.14.6140
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003011 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 56.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.055 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004528 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 58.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+GPGSUpgrader start
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GooglePlayGames.Editor.GPGSUpgrader:.cctor () (at Assets/GooglePlayGames/Editor/GPGSUpgrader.cs:38)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/GooglePlayGames/Editor/GPGSUpgrader.cs Line: 38)
+
+GPGSUpgrader done
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GooglePlayGames.Editor.GPGSUpgrader:.cctor () (at Assets/GooglePlayGames/Editor/GPGSUpgrader.cs:105)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/GooglePlayGames/Editor/GPGSUpgrader.cs Line: 105)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.125 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3219 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.5 MB.
+System memory in use after: 141.5 MB.
+
+Unloading 69 unused Assets to reduce memory usage. Loaded Objects now: 3628.
+Total: 2.590900 ms (FindLiveObjects: 0.297300 ms CreateObjectMapping: 0.146900 ms MarkObjects: 2.003900 ms  DeleteObjects: 0.141900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/PipelineAsset.asset
+  artifactKey: Guid(960e2417277e2b048b049ba242e0b615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PipelineAsset.asset using Guid(960e2417277e2b048b049ba242e0b615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36153472b2891677ff283e3262dda5a3') in 0.046347 seconds
+  Import took 0.051433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/2DRenderer.asset
+  artifactKey: Guid(00901e1e9df50d041a01cad559f12c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DRenderer.asset using Guid(00901e1e9df50d041a01cad559f12c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '318eca5370984f31b88aa7a1645ecd48') in 0.011268 seconds
+  Import took 0.018738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 551.614492 seconds.
+  path: Assets/Yoan
+  artifactKey: Guid(a7564b1a3b4ce8a42a87d298683f9d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan using Guid(a7564b1a3b4ce8a42a87d298683f9d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac806b60b1c356747ba2edd673cd25f5') in 0.008485 seconds
+  Import took 0.014614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002194 seconds.
+  path: Assets/Yoan
+  artifactKey: Guid(a7564b1a3b4ce8a42a87d298683f9d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan using Guid(a7564b1a3b4ce8a42a87d298683f9d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac806b60b1c356747ba2edd673cd25f5') in 0.003639 seconds
+  Import took 0.010382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.951558 seconds.
+  path: Assets/Yoan/Assets
+  artifactKey: Guid(3621f2ed68a202f4b80a012f79ba3f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets using Guid(3621f2ed68a202f4b80a012f79ba3f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5d41f2b17c8aeb8abe408da83b268c') in 0.008930 seconds
+  Import took 0.015679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.692292 seconds.
+  path: Assets/Yoan/Test LD Scene Yoan.unity
+  artifactKey: Guid(40a3875db4b004644a7afc3323eec43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Test LD Scene Yoan.unity using Guid(40a3875db4b004644a7afc3323eec43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4219dfc69065440516dd64469fc47be0') in 0.009648 seconds
+  Import took 0.016107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.622237 seconds.
+  path: Assets/Yoan/Tilemap Yoan
+  artifactKey: Guid(dc9e3ab9c10d01c4485400af6c6a85e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan using Guid(dc9e3ab9c10d01c4485400af6c6a85e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0bcfe2e3ec1a65d16df640243fbca04') in 0.009524 seconds
+  Import took 0.015633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.148921 seconds.
+  path: Assets/Yoan/Scenes
+  artifactKey: Guid(a3006591668987c4fbc8b03ed8e24d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Scenes using Guid(a3006591668987c4fbc8b03ed8e24d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2eac6484df17520e9f926a4b3af3da') in 0.009519 seconds
+  Import took 0.016715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.870051 seconds.
+  path: Assets/Yoan/Scenes/Tuto.unity
+  artifactKey: Guid(5fb43e829dddc4b4992d2ce0eb7005a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Scenes/Tuto.unity using Guid(5fb43e829dddc4b4992d2ce0eb7005a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6378ec6fd16bdf53d7ec96cf93c221f6') in 0.010744 seconds
+  Import took 0.016504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003231 seconds.
+  path: Assets/Yoan/Scenes/Tuto.unity
+  artifactKey: Guid(5fb43e829dddc4b4992d2ce0eb7005a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Scenes/Tuto.unity using Guid(5fb43e829dddc4b4992d2ce0eb7005a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6378ec6fd16bdf53d7ec96cf93c221f6') in 0.005245 seconds
+  Import took 0.012537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 214.237532 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée
+  artifactKey: Guid(499637e5d25e8f74c9464110cfa53af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée using Guid(499637e5d25e8f74c9464110cfa53af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff15b7248e96fd2a76a9379af0a20259') in 0.010084 seconds
+  Import took 0.017266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.077824 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/arche_profil.png
+  artifactKey: Guid(383f3454962a11b43a78d1fbb9340bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/arche_profil.png using Guid(383f3454962a11b43a78d1fbb9340bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dfcd4fb15e1f2540a1e277d32cd85fc') in 0.076294 seconds
+  Import took 0.081578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/arche_profil_2.asset
+  artifactKey: Guid(e5794de4f6aa5344495b97d7e9961d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/arche_profil_2.asset using Guid(e5794de4f6aa5344495b97d7e9961d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ff55ecec627300042cc593d0b605f1') in 0.020248 seconds
+  Import took 0.026426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/carrelagev2.asset
+  artifactKey: Guid(23d047808b9879d4b92437a3e2ad9543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/carrelagev2.asset using Guid(23d047808b9879d4b92437a3e2ad9543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e408abc80d1425559d59515e27afa9') in 0.012710 seconds
+  Import took 0.021192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000594 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/tilemap_murs (1).png
+  artifactKey: Guid(132aa7d688167414b96d63ca9fd4e56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/tilemap_murs (1).png using Guid(132aa7d688167414b96d63ca9fd4e56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96535e51a766519a717f56918f1931f3') in 0.020562 seconds
+  Import took 0.027668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/carrelagev2.png
+  artifactKey: Guid(d91ed5d755d2e534aa1134201f2d5ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/carrelagev2.png using Guid(d91ed5d755d2e534aa1134201f2d5ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790683bb2075df7abb7d1ba056fa8ae0') in 0.013206 seconds
+  Import took 0.021406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/parquet3.png
+  artifactKey: Guid(43ec9c94ca0f7254ba5b4351b652afc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/parquet3.png using Guid(43ec9c94ca0f7254ba5b4351b652afc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '263bdfa07db52512ede19f023492fe7e') in 0.019177 seconds
+  Import took 0.026922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/tilemap_plaintes_bas (1).png
+  artifactKey: Guid(461d97625c9a0fe46a48ef8e068ec1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/tilemap_plaintes_bas (1).png using Guid(461d97625c9a0fe46a48ef8e068ec1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a70c289223a60ebdbb49d288870e0d6') in 0.025888 seconds
+  Import took 0.031173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/tilemap_plaintes_bas (1)_4.asset
+  artifactKey: Guid(1cf4b73e9c3d36f4487789f3454b9959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/tilemap_plaintes_bas (1)_4.asset using Guid(1cf4b73e9c3d36f4487789f3454b9959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da57cb70296731162e918662bc4103a3') in 0.014591 seconds
+  Import took 0.020493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/tilemap_portefermée (1).png
+  artifactKey: Guid(88a4cd689cfecc54eb4e45e691fcf08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/tilemap_portefermée (1).png using Guid(88a4cd689cfecc54eb4e45e691fcf08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4924c813fc78bd60aec3e601abc2ee9') in 0.017446 seconds
+  Import took 0.024561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/arche_profil_3.asset
+  artifactKey: Guid(7ae1c6d5a2079d249ab84a1a66218640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/arche_profil_3.asset using Guid(7ae1c6d5a2079d249ab84a1a66218640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e209ae47c0a5f126359f90c77b94bce1') in 0.012675 seconds
+  Import took 0.017930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/arche_profil_1.asset
+  artifactKey: Guid(8a680bbf86c4fb5478eb2f4792de6be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/arche_profil_1.asset using Guid(8a680bbf86c4fb5478eb2f4792de6be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a7783216c23edf9c5c0254ce2c8be8f') in 0.013077 seconds
+  Import took 0.018554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/tilemap_arche (2).png
+  artifactKey: Guid(1f3a2e0ec9a20e64cb754f2bce71535c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/tilemap_arche (2).png using Guid(1f3a2e0ec9a20e64cb754f2bce71535c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '321eb0f105f63f855284abda64dcf202') in 0.016539 seconds
+  Import took 0.023524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/coin_bois.png
+  artifactKey: Guid(226aede837fce1e4c91157996feab0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/coin_bois.png using Guid(226aede837fce1e4c91157996feab0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd007f0c8d7912e7824aa5708badb1b59') in 0.014750 seconds
+  Import took 0.021087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/porte profil (3).png
+  artifactKey: Guid(8ed9790c08ca9544c92b083ce8dae13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/porte profil (3).png using Guid(8ed9790c08ca9544c92b083ce8dae13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f70e6e5056f67644da7a7e1b8487737') in 0.027414 seconds
+  Import took 0.033849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/tilemap_plaintes_bas (1)_0.asset
+  artifactKey: Guid(4bc1764e3b4d36743ba2516d95c2d6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/tilemap_plaintes_bas (1)_0.asset using Guid(4bc1764e3b4d36743ba2516d95c2d6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e8742a310fe00b7e418e7c39b5c2ad') in 0.013358 seconds
+  Import took 0.019173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000793 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/parquet1.png
+  artifactKey: Guid(2d21ef98a4e620047821c9c0cc10b05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/parquet1.png using Guid(2d21ef98a4e620047821c9c0cc10b05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494419ae3357f3f8e67bc2503f0da3a0') in 0.013536 seconds
+  Import took 0.021180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/tilemap_porteouverteT (1).png
+  artifactKey: Guid(fc8dd2e2bc64f8245b16cd49bd989952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/tilemap_porteouverteT (1).png using Guid(fc8dd2e2bc64f8245b16cd49bd989952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210ebb19e472f469c5ea14686b82ed69') in 0.020103 seconds
+  Import took 0.025834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/parquet2.png
+  artifactKey: Guid(a5fb0185943ad6647a436c90c48a9574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/parquet2.png using Guid(a5fb0185943ad6647a436c90c48a9574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1bb56fae01035b815eaaf871ffe24b') in 0.016443 seconds
+  Import took 0.022736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/tilemap_plaintes_bas (1)_1.asset
+  artifactKey: Guid(561df383304e47c42914a53bde976f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/tilemap_plaintes_bas (1)_1.asset using Guid(561df383304e47c42914a53bde976f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8557efd6918a17b8970d6b1aeced27af') in 0.012633 seconds
+  Import took 0.019931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv3 (1).png
+  artifactKey: Guid(1bd15fa21595bcd4383d2750ab4b2452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv3 (1).png using Guid(1bd15fa21595bcd4383d2750ab4b2452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39f5d3fb36c628ed26fa5b1f9d18c76') in 0.044061 seconds
+  Import took 0.051440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/tilemap_archeH.png
+  artifactKey: Guid(49ab6eec34c26b548b9bee51e5425932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/tilemap_archeH.png using Guid(49ab6eec34c26b548b9bee51e5425932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10119cc251ce0a73619f532e4bc2c311') in 0.018690 seconds
+  Import took 0.027106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/tilemap_plaintes_bas (1)_3.asset
+  artifactKey: Guid(8b368dc8fd931a648b582aa2bd674edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/tilemap_plaintes_bas (1)_3.asset using Guid(8b368dc8fd931a648b582aa2bd674edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466e7a93a8170454b420732c49a5eeac') in 0.015887 seconds
+  Import took 0.024812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/tilemap_sols (2).png
+  artifactKey: Guid(7cf97895b3369664e8dffd3ecb4270b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/tilemap_sols (2).png using Guid(7cf97895b3369664e8dffd3ecb4270b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce2d5a1d99d87ed1f63f5bfa075876f') in 0.048497 seconds
+  Import took 0.056063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/tilemap_plaintes_bas (1)_2.asset
+  artifactKey: Guid(41b2cee3e306cbe48b3dd3ebb55fd389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/tilemap_plaintes_bas (1)_2.asset using Guid(41b2cee3e306cbe48b3dd3ebb55fd389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ddf1da5b88174d8ca7c7643b7b3d5e') in 0.017838 seconds
+  Import took 0.023730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/porte profil ouverte (2).png
+  artifactKey: Guid(2318ef38bbc87e3488640fa2b687a507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/porte profil ouverte (2).png using Guid(2318ef38bbc87e3488640fa2b687a507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7963d012959cc8c16a025cc9464a529') in 0.028218 seconds
+  Import took 0.036136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001042 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/arche_profil_0.asset
+  artifactKey: Guid(3c505d221630df948805d6ec2aa0ca2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/arche_profil_0.asset using Guid(3c505d221630df948805d6ec2aa0ca2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4b1b62eb52906a8322bdc55da8485b') in 0.013550 seconds
+  Import took 0.020341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/mur_pierrev3.png
+  artifactKey: Guid(867ebceb7fa847f498945a4b3d1066e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/mur_pierrev3.png using Guid(867ebceb7fa847f498945a4b3d1066e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320cf973df09a48648bcbb1a3973d69c') in 0.045587 seconds
+  Import took 0.051721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.330279 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4.png
+  artifactKey: Guid(77bba605017e10a40b70304c4862276f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4.png using Guid(77bba605017e10a40b70304c4862276f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa20078657dd27df762edb39eaeefc9') in 0.019528 seconds
+  Import took 0.025883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.515888 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4.png
+  artifactKey: Guid(77bba605017e10a40b70304c4862276f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4.png using Guid(77bba605017e10a40b70304c4862276f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0859ea894a7f2d6375fa2a788b5d21') in 0.012775 seconds
+  Import took 0.019384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.111625 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4.png
+  artifactKey: Guid(77bba605017e10a40b70304c4862276f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4.png using Guid(77bba605017e10a40b70304c4862276f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18aa5337818272972e5e3f73496c7583') in 0.034080 seconds
+  Import took 0.039836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.740090 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4_0.asset
+  artifactKey: Guid(ce01d70e5aa336340ab9dfed10418ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4_0.asset using Guid(ce01d70e5aa336340ab9dfed10418ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4914506e6132bd9babf1416d195386b') in 0.011697 seconds
+  Import took 0.017806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4_3.asset
+  artifactKey: Guid(0751d593881e68147b261174e494d317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4_3.asset using Guid(0751d593881e68147b261174e494d317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be1962ef6cb351b5b76b83bec686defc') in 0.013783 seconds
+  Import took 0.020069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4_11.asset
+  artifactKey: Guid(69e67f3ddd0177242907acf6645f343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4_11.asset using Guid(69e67f3ddd0177242907acf6645f343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0046a4c9c30e6280ea06dcd7a5d7cd') in 0.011775 seconds
+  Import took 0.017417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4_14.asset
+  artifactKey: Guid(59ed435f3a11a454db1bf56c8323044c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4_14.asset using Guid(59ed435f3a11a454db1bf56c8323044c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3017c1da36075e171c6c1f014fb1f1') in 0.011585 seconds
+  Import took 0.018055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4_10.asset
+  artifactKey: Guid(b431fe8881635f84f9400be910cd93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4_10.asset using Guid(b431fe8881635f84f9400be910cd93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6febd55680dfa4675f202a494f32825d') in 0.012955 seconds
+  Import took 0.018794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4_6.asset
+  artifactKey: Guid(fa33edc9bddfd83449dd427e576d017c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4_6.asset using Guid(fa33edc9bddfd83449dd427e576d017c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4c2bb9583e0dcbc3ed2aabbfbeea44') in 0.012290 seconds
+  Import took 0.017124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4_9.asset
+  artifactKey: Guid(d449c9934db1c2c4f85293359a1e70a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4_9.asset using Guid(d449c9934db1c2c4f85293359a1e70a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ad23d2e68dd2d0202fe9a924867c5e') in 0.011251 seconds
+  Import took 0.016304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4_16.asset
+  artifactKey: Guid(b8369d8f7df932f44b457aa1bd1c3344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4_16.asset using Guid(b8369d8f7df932f44b457aa1bd1c3344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e89d97be49fd430ff9bb66c29fe115') in 0.011895 seconds
+  Import took 0.016806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4_4.asset
+  artifactKey: Guid(69e7c81901244f94cb3a1074b1f169cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4_4.asset using Guid(69e7c81901244f94cb3a1074b1f169cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f4cd2c704ab6b1a99ba1f68fc369fcb') in 0.014155 seconds
+  Import took 0.020050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4_12.asset
+  artifactKey: Guid(eff8aa6c942b5d94eb847a4e458dc06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4_12.asset using Guid(eff8aa6c942b5d94eb847a4e458dc06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f73bd7b6094b4386ef314a2068309b2') in 0.012360 seconds
+  Import took 0.018180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4_15.asset
+  artifactKey: Guid(f04111e526f325b45a8b2d742f86f42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4_15.asset using Guid(f04111e526f325b45a8b2d742f86f42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07dd6cfc95085d861424dd9e0ac0091d') in 0.012804 seconds
+  Import took 0.018609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4_8.asset
+  artifactKey: Guid(51287ecd660267d4d9b9d71810eda732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4_8.asset using Guid(51287ecd660267d4d9b9d71810eda732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b60ec22fe8a4e89d6f8ab20104f909f') in 0.011942 seconds
+  Import took 0.018233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4_5.asset
+  artifactKey: Guid(7ca9e5bc55141ce408876b85f12d5d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4_5.asset using Guid(7ca9e5bc55141ce408876b85f12d5d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e0e832ce1103fc0bb8dfedc108ec45') in 0.010956 seconds
+  Import took 0.018773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4_13.asset
+  artifactKey: Guid(68197c6440fd53a4fa116bfcc1341a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4_13.asset using Guid(68197c6440fd53a4fa116bfcc1341a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d76e241392e8bc8d6f665403629acaf') in 0.012194 seconds
+  Import took 0.017317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4_2.asset
+  artifactKey: Guid(e2946c524d611004eb4e0aaa0c816fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4_2.asset using Guid(e2946c524d611004eb4e0aaa0c816fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd983ccf147af74bd805735db6ea0f8ef') in 0.013517 seconds
+  Import took 0.020088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4_7.asset
+  artifactKey: Guid(2ca51be00776aa342acf97b5544f2af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4_7.asset using Guid(2ca51be00776aa342acf97b5544f2af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8a6ca0d1078e45128731d4dce41e86') in 0.011238 seconds
+  Import took 0.017633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4_1.asset
+  artifactKey: Guid(27c4534d619a4c14992266aefa52b804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4_1.asset using Guid(27c4534d619a4c14992266aefa52b804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c2bb1643bc9e9293c50de055c3591e') in 0.012880 seconds
+  Import took 0.018405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2021.682667 seconds.
+  path: Assets/Yoan/Assets/Object
+  artifactKey: Guid(6354abae41796544297ebfce4d05c641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object using Guid(6354abae41796544297ebfce4d05c641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0dcc52e546f0f0e12362016166e3021') in 0.011234 seconds
+  Import took 0.028576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033571 seconds.
+  path: Assets/Yoan/Assets/Object/LustreMat.mat
+  artifactKey: Guid(2b458301a13c6504b8645deb24dabcc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/LustreMat.mat using Guid(2b458301a13c6504b8645deb24dabcc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85be3ffe375a8894218f10943012e8c3') in 0.242200 seconds
+  Import took 0.250174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Yoan/Assets/Object/piano_anim1 (1).png
+  artifactKey: Guid(8f3804aadd123c044bdd0a4c67d8dd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/piano_anim1 (1).png using Guid(8f3804aadd123c044bdd0a4c67d8dd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcfa1060ed2bd4c4212c1f8e21c90e6d') in 0.015499 seconds
+  Import took 0.023830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Yoan/Assets/Object/StatueMat.mat
+  artifactKey: Guid(35a5cacbcfdb091469d413529bfb6562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/StatueMat.mat using Guid(35a5cacbcfdb091469d413529bfb6562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c3763c7596f20ea0d9d58d73791251') in 0.028986 seconds
+  Import took 0.038181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Yoan/Assets/Object/statue1 (1).png
+  artifactKey: Guid(61913f05ddab1224e820a93adf79a3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/statue1 (1).png using Guid(61913f05ddab1224e820a93adf79a3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b1e14fa3ae79e492c2bf514ea9b5ff') in 0.015485 seconds
+  Import took 0.024881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000698 seconds.
+  path: Assets/Yoan/Assets/Object/lustrex2.png
+  artifactKey: Guid(e4eef02a4d7465c46846698f7a1540ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/lustrex2.png using Guid(e4eef02a4d7465c46846698f7a1540ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dae23733102be146f888c366fd8bc1d') in 0.019636 seconds
+  Import took 0.031909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007707 seconds.
+  path: Assets/Yoan/Assets/Object/lustrex2.png
+  artifactKey: Guid(e4eef02a4d7465c46846698f7a1540ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/lustrex2.png using Guid(e4eef02a4d7465c46846698f7a1540ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dae23733102be146f888c366fd8bc1d') in 0.015764 seconds
+  Import took 0.026547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 472.547425 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/porte profil (3) 1.png
+  artifactKey: Guid(dcb23c5caf85dbe40a1f71b6c770adaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/porte profil (3) 1.png using Guid(dcb23c5caf85dbe40a1f71b6c770adaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17fee3b14716bb6b73d933d4adeb8e62') in 0.049073 seconds
+  Import took 0.060328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/porte profil ouverte (2) 1.png
+  artifactKey: Guid(abf391433302df847b696c8abd445a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/porte profil ouverte (2) 1.png using Guid(abf391433302df847b696c8abd445a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242c1db22bd02ec59674b66c58f12fe6') in 0.027864 seconds
+  Import took 0.039566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.439568 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/tilemap_portefermée (1) 1.png
+  artifactKey: Guid(6cbedcc19f0ca2748af28320b2ccf3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/tilemap_portefermée (1) 1.png using Guid(6cbedcc19f0ca2748af28320b2ccf3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5abec52f67cc3c75c495475a6bc8359') in 0.021058 seconds
+  Import took 0.028685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/tilemap_porteouverteT (1) 1.png
+  artifactKey: Guid(a667ff3106188f04d9344b78ba5c9ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/tilemap_porteouverteT (1) 1.png using Guid(a667ff3106188f04d9344b78ba5c9ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db245e5c2333b3842c8711045cc81bcd') in 0.025224 seconds
+  Import took 0.032025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.747401 seconds.
+  path: Assets/Yoan/Assets/Object/Trap
+  artifactKey: Guid(89b67b195bb86064a8bc2276e446e718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/Trap using Guid(89b67b195bb86064a8bc2276e446e718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d20d5b363e8ec1e97a9189ccb841ca') in 0.013310 seconds
+  Import took 0.023231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001916 seconds.
+  path: Assets/Yoan/Assets/Object/Trap
+  artifactKey: Guid(89b67b195bb86064a8bc2276e446e718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/Trap using Guid(89b67b195bb86064a8bc2276e446e718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d20d5b363e8ec1e97a9189ccb841ca') in 0.007863 seconds
+  Import took 0.017845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.042650 seconds.
+  path: Assets/Yoan/Assets/Object/Materials
+  artifactKey: Guid(5d734084bb6cab04ead7e1b18db6691b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/Materials using Guid(5d734084bb6cab04ead7e1b18db6691b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bfd0e60834929463e7600935a37e8e2') in 0.013949 seconds
+  Import took 0.021093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.165452 seconds.
+  path: Assets/Yoan/Assets/Object/Trap/porte profil (2).png
+  artifactKey: Guid(5027def88711fa74bbff2b97ac8cf6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/Trap/porte profil (2).png using Guid(5027def88711fa74bbff2b97ac8cf6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674998c3f1c5fb12b6aa7c4ccc5d711a') in 0.042336 seconds
+  Import took 0.050482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000497 seconds.
+  path: Assets/Yoan/Assets/Object/Trap/porte profil (3).png
+  artifactKey: Guid(2c8d51ceed27894489cf626987c62558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/Trap/porte profil (3).png using Guid(2c8d51ceed27894489cf626987c62558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e7e4f5e01f106aced8c2516bad2fc10') in 0.011597 seconds
+  Import took 0.016413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Yoan/Assets/Object/Trap/porte profil ouverte (2).png
+  artifactKey: Guid(8d38a33a5eba7a547a02be09ddc5e332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/Trap/porte profil ouverte (2).png using Guid(8d38a33a5eba7a547a02be09ddc5e332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab5b4a7eb4ec8e1ae8dde1e06d5d8e6') in 0.011291 seconds
+  Import took 0.015942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Yoan/Assets/Object/Trap/porte profil ouverte (1).png
+  artifactKey: Guid(151061fb67b3f25419ad5c9de6a46389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/Trap/porte profil ouverte (1).png using Guid(151061fb67b3f25419ad5c9de6a46389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610fedc7c0c41664e3d752e4b5ac3add') in 0.022920 seconds
+  Import took 0.029908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.895633 seconds.
+  path: Assets/Yoan/Assets/Object/Trap/tilemap_porteouverteR.png
+  artifactKey: Guid(84dc987bc57aca64593e1569552b1d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/Trap/tilemap_porteouverteR.png using Guid(84dc987bc57aca64593e1569552b1d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d1e207ef5dd33acfc8d50d34b05a0a') in 0.022757 seconds
+  Import took 0.031943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.326526 seconds.
+  path: Assets/Yoan/Assets/Object/Trap/tilemap_porteouverteT.png
+  artifactKey: Guid(3e0f52ca837e19244bcfdcff634eeeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/Trap/tilemap_porteouverteT.png using Guid(3e0f52ca837e19244bcfdcff634eeeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2d1b76d17c2d6a1a183742fc695eaf') in 0.020939 seconds
+  Import took 0.030989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.320532 seconds.
+  path: Assets/Yoan/Assets/Object/Trap/tilemap_porteouverteT.png
+  artifactKey: Guid(3e0f52ca837e19244bcfdcff634eeeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/Trap/tilemap_porteouverteT.png using Guid(3e0f52ca837e19244bcfdcff634eeeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b62054d7800e85d9b1f01c0082ec781') in 0.015776 seconds
+  Import took 0.025623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.192325 seconds.
+  path: Assets/Yoan/Assets/Object/Trap/tilemap_porteouverteR.png
+  artifactKey: Guid(84dc987bc57aca64593e1569552b1d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/Trap/tilemap_porteouverteR.png using Guid(84dc987bc57aca64593e1569552b1d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24824556454dc78c8a743794b5bebee4') in 0.009190 seconds
+  Import took 0.014978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.656684 seconds.
+  path: Assets/Yoan/Assets/Object/Trap/porte profil ouverte (2).png
+  artifactKey: Guid(8d38a33a5eba7a547a02be09ddc5e332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/Trap/porte profil ouverte (2).png using Guid(8d38a33a5eba7a547a02be09ddc5e332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05a42afb4ce982e3887a9a56d0964384') in 0.009137 seconds
+  Import took 0.019437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.468135 seconds.
+  path: Assets/Yoan/Assets/Object/Trap/porte profil (3).png
+  artifactKey: Guid(2c8d51ceed27894489cf626987c62558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/Trap/porte profil (3).png using Guid(2c8d51ceed27894489cf626987c62558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0b20838cf18ece1ada64fe39fefff3') in 0.010560 seconds
+  Import took 0.019240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 139.720518 seconds.
+  path: Assets/Yoan/Assets/Object/Trap/tilemap_portefermée.png
+  artifactKey: Guid(fe3c0f632d1352742b05b3bc55ef9f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/Trap/tilemap_portefermée.png using Guid(fe3c0f632d1352742b05b3bc55ef9f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565fe54f1c5d012f26b9987fc2eaf564') in 0.018715 seconds
+  Import took 0.030927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Yoan/Assets/Object/Trap/tilemap_porteouverteT.png
+  artifactKey: Guid(3e0f52ca837e19244bcfdcff634eeeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/Trap/tilemap_porteouverteT.png using Guid(3e0f52ca837e19244bcfdcff634eeeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd0989c77fde072e147f9dd75af1246') in 0.009298 seconds
+  Import took 0.017268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.759455 seconds.
+  path: Assets/Yoan/Assets/Object/Trap/tilemap_porteouverteT.png
+  artifactKey: Guid(3e0f52ca837e19244bcfdcff634eeeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/Trap/tilemap_porteouverteT.png using Guid(3e0f52ca837e19244bcfdcff634eeeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '617e40af10c8de5ff5ecc0eeede472b3') in 0.012025 seconds
+  Import took 0.018759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.000971 seconds.
+  path: Assets/Yoan/Assets/Object/Trap/tilemap_porteouverteT.png
+  artifactKey: Guid(3e0f52ca837e19244bcfdcff634eeeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/Trap/tilemap_porteouverteT.png using Guid(3e0f52ca837e19244bcfdcff634eeeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728b738090962edfde93b64d90360c87') in 0.010285 seconds
+  Import took 0.019378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.284413 seconds.
+  path: Assets/Yoan/Assets/Object/Trap/tilemap_portefermée.png
+  artifactKey: Guid(fe3c0f632d1352742b05b3bc55ef9f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/Trap/tilemap_portefermée.png using Guid(fe3c0f632d1352742b05b3bc55ef9f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3610a1f0790499703d4ef08affbf78') in 0.009350 seconds
+  Import took 0.016781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.769388 seconds.
+  path: Assets/Yoan/Assets/Object/Trap/tilemap_porteouverteT.png
+  artifactKey: Guid(3e0f52ca837e19244bcfdcff634eeeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/Trap/tilemap_porteouverteT.png using Guid(3e0f52ca837e19244bcfdcff634eeeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2606ba83615a8009efd8ac337ead8a3') in 0.014514 seconds
+  Import took 0.024096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.371409 seconds.
+  path: Assets/Yoan/Assets/Object/Trap/tilemap_porteouverteT.png
+  artifactKey: Guid(3e0f52ca837e19244bcfdcff634eeeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/Trap/tilemap_porteouverteT.png using Guid(3e0f52ca837e19244bcfdcff634eeeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa52be496987d0f30e013f2e44aeefdc') in 0.014323 seconds
+  Import took 0.021911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.520252 seconds.
+  path: Assets/Yoan/Assets/Object/Trap/piano5.png
+  artifactKey: Guid(8091c1ab968a72a41b594768e9b8f653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/Trap/piano5.png using Guid(8091c1ab968a72a41b594768e9b8f653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86bc1adff08b7185008f42e92c17327c') in 0.021687 seconds
+  Import took 0.029962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.445362 seconds.
+  path: Assets/Yoan/Assets/Object/Trap/piano5.png
+  artifactKey: Guid(8091c1ab968a72a41b594768e9b8f653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/Trap/piano5.png using Guid(8091c1ab968a72a41b594768e9b8f653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8fea4b27d7050675aeadaf34762943') in 0.010126 seconds
+  Import took 0.017003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.724416 seconds.
+  path: Assets/Yoan/Assets/Object/Trap/piano5.png
+  artifactKey: Guid(8091c1ab968a72a41b594768e9b8f653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/Trap/piano5.png using Guid(8091c1ab968a72a41b594768e9b8f653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4488929d5583365bfda33f81a80440c6') in 0.015409 seconds
+  Import took 0.023137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.187627 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/tilemap_porteouverteT (1) 1.png
+  artifactKey: Guid(a667ff3106188f04d9344b78ba5c9ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/tilemap_porteouverteT (1) 1.png using Guid(a667ff3106188f04d9344b78ba5c9ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff2efcf2a7f5668d4eb81807c88c2cd') in 0.019354 seconds
+  Import took 0.031883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.710744 seconds.
+  path: Assets/Yoan/Assets/Object/ombre_lustre.png
+  artifactKey: Guid(5ef8d48a9af78864b84b0d9a22306047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/ombre_lustre.png using Guid(5ef8d48a9af78864b84b0d9a22306047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec2a29d4643b06631c4f8de555a7daf') in 0.020909 seconds
+  Import took 0.030426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003073 seconds.
+  path: Assets/Yoan/Assets/Object/ombre_lustre.png
+  artifactKey: Guid(5ef8d48a9af78864b84b0d9a22306047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/ombre_lustre.png using Guid(5ef8d48a9af78864b84b0d9a22306047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec2a29d4643b06631c4f8de555a7daf') in 0.011252 seconds
+  Import took 0.019275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.083731 seconds.
+  path: Assets/Yoan/Assets/Object/ombre_lustre.png
+  artifactKey: Guid(5ef8d48a9af78864b84b0d9a22306047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/ombre_lustre.png using Guid(5ef8d48a9af78864b84b0d9a22306047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5350ec38ed9e4888b9b6d19c1faae9e4') in 0.011327 seconds
+  Import took 0.026641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 214.961485 seconds.
+  path: Assets/Yoan/Assets/Object/statue1 (2).png
+  artifactKey: Guid(a5786889439d1ed47839e80ce1306f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/statue1 (2).png using Guid(a5786889439d1ed47839e80ce1306f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0247a0b6a2bf903b47db0c0f624c39c6') in 0.020566 seconds
+  Import took 0.028346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.990236 seconds.
+  path: Assets/Yoan/Assets/Object/statue1 (2).png
+  artifactKey: Guid(a5786889439d1ed47839e80ce1306f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/statue1 (2).png using Guid(a5786889439d1ed47839e80ce1306f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '468232be9cfa9cae9c1134d56f293636') in 0.012929 seconds
+  Import took 0.024577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.645970 seconds.
+  path: Assets/Yoan/Assets/Object/statue1 (2).png
+  artifactKey: Guid(a5786889439d1ed47839e80ce1306f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/statue1 (2).png using Guid(a5786889439d1ed47839e80ce1306f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82fef61ca34b1ad32ed03419c323f674') in 0.016399 seconds
+  Import took 0.026095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 640.650462 seconds.
+  path: Assets/Yoan/Assets/Object/statue1 (3).png
+  artifactKey: Guid(22c6c69f75e802248bfdc3df01ff3b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/statue1 (3).png using Guid(22c6c69f75e802248bfdc3df01ff3b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbc1119585447c1fadb97000b7ea443') in 0.024001 seconds
+  Import took 0.038737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005681 seconds.
+  path: Assets/Yoan/Assets/Object/statue1 (3).png
+  artifactKey: Guid(22c6c69f75e802248bfdc3df01ff3b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/statue1 (3).png using Guid(22c6c69f75e802248bfdc3df01ff3b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbc1119585447c1fadb97000b7ea443') in 0.009804 seconds
+  Import took 0.021771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.202396 seconds.
+  path: Assets/Yoan/Assets/Object/piano1.png
+  artifactKey: Guid(f05c5e03fdcf96d459efaf5445739df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/piano1.png using Guid(f05c5e03fdcf96d459efaf5445739df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8bede3dcb808823f328cac27aed50a') in 0.023228 seconds
+  Import took 0.035223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.400770 seconds.
+  path: Assets/Yoan/Assets/Object/piano1.png
+  artifactKey: Guid(f05c5e03fdcf96d459efaf5445739df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/piano1.png using Guid(f05c5e03fdcf96d459efaf5445739df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a390c6970a0e7a34b7782e98412889') in 0.010720 seconds
+  Import took 0.020349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.857568 seconds.
+  path: Assets/Yoan/Assets/Object/statue1 (3).png
+  artifactKey: Guid(22c6c69f75e802248bfdc3df01ff3b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/statue1 (3).png using Guid(22c6c69f75e802248bfdc3df01ff3b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0f537b47d5f7850ce4e739c4bc8a35') in 0.008679 seconds
+  Import took 0.014206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 209.185264 seconds.
+  path: Assets/Yoan/Assets/Object/doubleporte.png
+  artifactKey: Guid(f86562ab54492044ea00f6d0a51745d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/doubleporte.png using Guid(f86562ab54492044ea00f6d0a51745d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c15cb581945ffaa1caa0904d544116e') in 0.028316 seconds
+  Import took 0.038260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002172 seconds.
+  path: Assets/Yoan/Assets/Object/doubleporte.png
+  artifactKey: Guid(f86562ab54492044ea00f6d0a51745d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/doubleporte.png using Guid(f86562ab54492044ea00f6d0a51745d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c15cb581945ffaa1caa0904d544116e') in 0.023311 seconds
+  Import took 0.029442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.132338 seconds.
+  path: Assets/Yoan/Assets/Object/doubleporte.png
+  artifactKey: Guid(f86562ab54492044ea00f6d0a51745d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/doubleporte.png using Guid(f86562ab54492044ea00f6d0a51745d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26fcdfcdaa2b48bcfa5fec5a7fe3247a') in 0.017548 seconds
+  Import took 0.024859 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
