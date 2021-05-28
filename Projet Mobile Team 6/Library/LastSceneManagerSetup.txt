@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Raph/TestRaph1.unity
+- path: Assets/Leo/TestLeo.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
