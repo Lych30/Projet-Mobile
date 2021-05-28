@@ -6,6 +6,11 @@ public class hole : MonoBehaviour
 {
     private void Start()
     {
-        gameObject.layer = 3;
+        if(GameManager.StaticMaxTrap > 0)
+        {
+            gameObject.layer = 3;
+            && GameManager.StaticMaxTrap--;
+        }
+
     }
 }

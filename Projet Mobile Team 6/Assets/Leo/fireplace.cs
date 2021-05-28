@@ -11,7 +11,7 @@ public class fireplace : MonoBehaviour
     private Collider2D herocoll2d;
     private const float GRIDSIZE = 3;
     private bool used;
-    private void OnEnable()
+    private void Start()
     {
         used = false;
         coll2d = GetComponent<Collider2D>();
@@ -23,13 +23,14 @@ public class fireplace : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (!used)
+        if (!used && GameManager.StaticMaxTrap > 0)
         {
             used = true;
             rend.material.shader = shaderDefault;
             Instantiate(Flamme, new Vector3(transform.position.x, transform.position.y - GRIDSIZE), new Quaternion());
             Instantiate(Flamme, new Vector3(transform.position.x, transform.position.y - 2 * GRIDSIZE), new Quaternion());
             AstarPath.active.Scan();
+            GameManager.StaticMaxTrap--;
         }
     }
 

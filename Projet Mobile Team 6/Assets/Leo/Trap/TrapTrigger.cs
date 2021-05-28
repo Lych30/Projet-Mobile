@@ -21,7 +21,7 @@ public class TrapTrigger : MonoBehaviour
     //Orientation
     private enum Orientation { UP, LEFT, DOWN, RIGHT }
     [SerializeField] private Orientation orientation;
-
+ 
    // [SerializeField] private GameObject Obstacle;
 
     // Start is called before the first frame update
@@ -97,28 +97,33 @@ public class TrapTrigger : MonoBehaviour
         }*/
 
         //NEW CODE
-        switch (type)
+        if (GameManager.StaticMaxTrap > 0)
         {
-            case Object.hole:
-                GetComponent<hole>().enabled = true;
-                break;
 
-            case Object.fireplace:
-                GetComponent<fireplace>().enabled = true;
-                break;
+            switch (type)
+            {
+                case Object.hole:
+                    GetComponent<hole>().enabled = true;
+                    break;
 
-            case Object.chandelier:
-                GetComponent<chandelier>().enabled = true;
-                break;
+                case Object.fireplace:
+                    GetComponent<fireplace>().enabled = true;
+                    break;
 
-            case Object.library:
-                GetComponent<library>().enabled = true;
-                break;
+                case Object.chandelier:
+                    GetComponent<chandelier>().enabled = true;
+                    break;
 
-            default:
-                break;
+                case Object.library:
+                    GetComponent<library>().enabled = true;
+                    break;
+
+                default:
+                    break;
+            }
+            AstarPath.active.Scan();
+            GameManager.StaticMaxTrap--;
         }
-        AstarPath.active.Scan();
     }
 
     private void ChangeAnimation(State newState)

@@ -12,7 +12,8 @@ public class chandelier : MonoBehaviour
     private Collider2D herocoll2d;
     private const float GRIDSIZE = 3;
     private bool used;
-    private void OnEnable()
+
+    private void Start()
     {
         used = false;
         rb = GetComponent<Rigidbody2D>();
@@ -25,9 +26,10 @@ public class chandelier : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (!used && !Physics2D.Distance(coll2d, herocoll2d.GetComponent<Collider2D>()).isOverlapped)
+        if (!used && !Physics2D.Distance(coll2d, herocoll2d.GetComponent<Collider2D>()).isOverlapped && GameManager.StaticMaxTrap>0)
         {
             StartCoroutine("tombe");
+            GameManager.StaticMaxTrap--;
         }
     }
 
