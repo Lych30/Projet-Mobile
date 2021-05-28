@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5890991454505870779}
   - component: {fileID: 5890991454505870405}
   - component: {fileID: 5890991454505870404}
+  - component: {fileID: 1290148486994931760}
   m_Layer: 0
   m_Name: Statue
   m_TagString: Trap
@@ -81,7 +82,7 @@ SpriteRenderer:
   m_Size: {x: 1.3846154, y: 4.4615383}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &5890991454505870405
@@ -124,3 +125,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.327574, y: 5.776829}
   m_EdgeRadius: 0
+--- !u!114 &1290148486994931760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5890991454505870776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aed3ef3fcb938024696128ffa0d83f38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
