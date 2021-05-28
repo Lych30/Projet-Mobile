@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Yoan/Scenes/Tuto.unity
-=======
-- path: Assets/Yoan/Test LD Scene Yoan.unity
->>>>>>> raph
+- path: Assets/Leo/TestLeo.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
