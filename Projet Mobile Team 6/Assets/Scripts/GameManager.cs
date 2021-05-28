@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public int MaxTrap;
+    public static int StaticMaxTrap;
+    private void Awake()
+    {
+        StaticMaxTrap = MaxTrap;
+    }
     // Update is called once per frame
     void Update()
     {

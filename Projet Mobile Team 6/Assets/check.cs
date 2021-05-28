@@ -49,13 +49,13 @@ using Pathfinding;
                 }
             }
 
-            if (_ai.reachedEndOfPath)
+            /*if (_ai.reachedEndOfPath)
             {
             if (GPS.GetComponent<GooglePlayGamesManager>().IsConnectedToGPS)
             {
                 Social.ReportProgress(GPGSIds.achievement_cheers_you_lost, 100.0f, null);
             }
-        }
+        }*/
 
         }
 
