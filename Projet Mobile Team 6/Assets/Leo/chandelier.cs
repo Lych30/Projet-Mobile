@@ -34,6 +34,7 @@ public class chandelier : MonoBehaviour
             {
                 StartCoroutine("tombe");
                 GameManager.StaticMaxTrap--;
+                GameObject.Find("GameManager").GetComponent<GameManager>().UpdateUiText();
             }
         }
     }

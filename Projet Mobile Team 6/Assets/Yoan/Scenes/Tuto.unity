@@ -290,9 +290,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HighlightShader: {fileID: -6465566751694194690, guid: 894d939bffef5524890deea09d57c2f1, type: 3}
-  defaultShader: {fileID: 4800000, guid: e260cfa7296ee7642b167f1eb5be5023, type: 3}
   trapsList: []
-  activate: 0
 --- !u!1 &126418563
 GameObject:
   m_ObjectHideFlags: 0
@@ -1627,6 +1625,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 946150e3f79f2654e9cc1cc2767e5357, type: 3}
+--- !u!114 &543209830 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1832724165873385703, guid: bb111e39c53f85f47835853c43b1d4fc, type: 3}
+  m_PrefabInstance: {fileID: 1523327843}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &562644135
 GameObject:
   m_ObjectHideFlags: 0
@@ -4204,7 +4213,7 @@ GameObject:
   - component: {fileID: 1364705329}
   - component: {fileID: 1364705328}
   m_Layer: 0
-  m_Name: Gamemanager
+  m_Name: GameManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4222,7 +4231,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56e4233898ce45d4294e14e47eacde95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxTrap: 5
+  MaxTrap: 2
+  MaxManifestation: 2
+  MaxKey: 2
+  Key: {fileID: 1980795188}
+  Obstacles: {fileID: 1924462414}
+  Manifestation: {fileID: 543209830}
 --- !u!4 &1364705329
 Transform:
   m_ObjectHideFlags: 0
@@ -6624,6 +6638,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas In Game
       objectReference: {fileID: 0}
+    - target: {fileID: 8432318826872045442, guid: bb111e39c53f85f47835853c43b1d4fc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8549513084970986091, guid: bb111e39c53f85f47835853c43b1d4fc, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -7712,6 +7730,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1924462414 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 912267765015155016, guid: bb111e39c53f85f47835853c43b1d4fc, type: 3}
+  m_PrefabInstance: {fileID: 1523327843}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1973811107
 GameObject:
   m_ObjectHideFlags: 0
@@ -9747,6 +9776,17 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &1980795188 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6105215626474656442, guid: bb111e39c53f85f47835853c43b1d4fc, type: 3}
+  m_PrefabInstance: {fileID: 1523327843}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2006387762
 GameObject:
   m_ObjectHideFlags: 0

@@ -44,12 +44,14 @@ public class Statue : MonoBehaviour
     {
         if (coll2d != null && herocoll2d != null)
         {
-            if (Ai != null && !used && GameObject.Find("PriorityDestination(Clone)") == null && Physics2D.Distance(coll2d, herocoll2d.GetComponent<Collider2D>()).isOverlapped)
+            if (Ai != null && !used && GameObject.Find("PriorityDestination(Clone)") == null && Physics2D.Distance(coll2d, herocoll2d.GetComponent<Collider2D>()).isOverlapped && GameManager.StaticMaxManifestation>0)
             {
 
                 AiPath.maxSpeed = 6;
                 rend.material.shader = shaderDefault;
                 used = true;
+                GameManager.StaticMaxManifestation--;
+                GameObject.Find("GameManager").GetComponent<GameManager>().UpdateUiText();
                 switch (orientation)
                 {
 

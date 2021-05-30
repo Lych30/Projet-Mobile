@@ -22,11 +22,13 @@ public class Piano : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (!used)
+        if (!used && GameManager.StaticMaxManifestation>0)
         {
             used = true;
             rend.material.shader = shaderDefault;
             Ai.SetTarget(Instantiate(Destination, new Vector3(transform.position.x, transform.position.y -  2 *GRIDSIZE), new Quaternion()));
+            GameManager.StaticMaxManifestation--;
+            GameObject.Find("GameManager").GetComponent<GameManager>().UpdateUiText();
             AstarPath.active.Scan();
         }
     }
