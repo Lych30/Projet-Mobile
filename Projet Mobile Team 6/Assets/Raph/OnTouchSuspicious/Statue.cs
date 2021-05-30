@@ -7,6 +7,7 @@ public class Statue : MonoBehaviour
 {
     public Transform Destination;
     private GameObject hero;
+    public GameObject TriggerZone;
     private Collider2D coll2d;
     private Collider2D herocoll2d;
     private AIDestinationSetter Ai;
@@ -26,7 +27,7 @@ public class Statue : MonoBehaviour
         used = false; 
         shaderDefault = Shader.Find("Sprites/Default");
         rend = GetComponent<SpriteRenderer>();
-        coll2d = GetComponent<Collider2D>();
+        coll2d = TriggerZone.GetComponent<Collider2D>();
         hero = GameObject.Find("Hero");
         herocoll2d = hero.GetComponent<Collider2D>();
         Ai = hero.GetComponent<AIDestinationSetter>();
@@ -41,33 +42,36 @@ public class Statue : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (Ai != null && !used && GameObject.Find("PriorityDestination(Clone)") == null && Physics2D.Distance(coll2d, herocoll2d.GetComponent<Collider2D>()).isOverlapped)
+        if (coll2d != null && herocoll2d != null)
         {
-
-            AiPath.maxSpeed = 6;
-            rend.material.shader = shaderDefault;
-            used = true;
-            switch (orientation)
+            if (Ai != null && !used && GameObject.Find("PriorityDestination(Clone)") == null && Physics2D.Distance(coll2d, herocoll2d.GetComponent<Collider2D>()).isOverlapped)
             {
 
-                case Orientation.UP:
-                    Ai.SetTarget(Instantiate(Destination, new Vector3(transform.position.x, transform.position.y + 5 * GRIDSIZE), new Quaternion()));
-                    break;
+                AiPath.maxSpeed = 6;
+                rend.material.shader = shaderDefault;
+                used = true;
+                switch (orientation)
+                {
 
-                case Orientation.DOWN:
-                    Ai.SetTarget(Instantiate(Destination, new Vector3(transform.position.x, transform.position.y - 5 * GRIDSIZE), new Quaternion()));
-                    break;
+                    case Orientation.UP:
+                        Ai.SetTarget(Instantiate(Destination, new Vector3(transform.position.x, transform.position.y + 5 * GRIDSIZE), new Quaternion()));
+                        break;
 
-                case Orientation.LEFT:
-                    Ai.SetTarget(Instantiate(Destination, new Vector3(transform.position.x - 5 * GRIDSIZE, transform.position.y), new Quaternion()));
-                    break;
+                    case Orientation.DOWN:
+                        Ai.SetTarget(Instantiate(Destination, new Vector3(transform.position.x, transform.position.y - 5 * GRIDSIZE), new Quaternion()));
+                        break;
 
-                case Orientation.RIGHT:
-                    Ai.SetTarget(Instantiate(Destination, new Vector3(transform.position.x + 5 * GRIDSIZE, transform.position.y), new Quaternion()));
-                    break;
+                    case Orientation.LEFT:
+                        Ai.SetTarget(Instantiate(Destination, new Vector3(transform.position.x - 5 * GRIDSIZE, transform.position.y), new Quaternion()));
+                        break;
 
-                default:
-                    break;
+                    case Orientation.RIGHT:
+                        Ai.SetTarget(Instantiate(Destination, new Vector3(transform.position.x + 5 * GRIDSIZE, transform.position.y), new Quaternion()));
+                        break;
+
+                    default:
+                        break;
+                }
             }
         }
     }

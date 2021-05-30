@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class chandelier : MonoBehaviour
 {
+
     public GameObject Debris;
+    public GameObject TriggerZone;
     private Rigidbody2D rb;
     private SpriteRenderer rend;
     private Shader shaderDefault;
@@ -17,7 +19,7 @@ public class chandelier : MonoBehaviour
     {
         used = false;
         rb = GetComponent<Rigidbody2D>();
-        coll2d = GetComponent<Collider2D>();
+        coll2d = TriggerZone.GetComponent<Collider2D>();
         herocoll2d = GameObject.Find("Hero").GetComponent<Collider2D>();
         shaderDefault = Shader.Find("Unlit/Transparent");
         rend = GetComponent<SpriteRenderer>();
@@ -26,10 +28,13 @@ public class chandelier : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (!used && !Physics2D.Distance(coll2d, herocoll2d.GetComponent<Collider2D>()).isOverlapped && GameManager.StaticMaxTrap>0)
+        if (coll2d != null && herocoll2d != null)
         {
-            StartCoroutine("tombe");
-            GameManager.StaticMaxTrap--;
+            if (!used && !Physics2D.Distance(coll2d, herocoll2d.GetComponent<Collider2D>()).isOverlapped && GameManager.StaticMaxTrap > 0)
+            {
+                StartCoroutine("tombe");
+                GameManager.StaticMaxTrap--;
+            }
         }
     }
 
