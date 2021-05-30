@@ -11,7 +11,7 @@ public class Piano : MonoBehaviour
     private AIDestinationSetter Ai;
     private const float GRIDSIZE = 3;
     private bool used;
-    private void OnEnable()
+    private void Start()
     {
         used = false;
         shaderDefault = Shader.Find("Unlit/Transparent");

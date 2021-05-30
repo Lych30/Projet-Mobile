@@ -37,7 +37,7 @@ public class chandelier : MonoBehaviour
     {
         rend.material.shader = shaderDefault;
         rb.gravityScale = 1;
-        yield return new WaitForSeconds(0.75f);
+        yield return new WaitForSeconds(1.63f);
         rend.enabled = false;
         Instantiate(Debris, new Vector3(transform.position.x + GRIDSIZE, transform.position.y), new Quaternion());
         Instantiate(Debris, new Vector3(transform.position.x - GRIDSIZE, transform.position.y), new Quaternion());
