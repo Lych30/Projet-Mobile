@@ -5,6 +5,7 @@ using UnityEngine;
 public class TheEnd : MonoBehaviour
 {
     public GameObject Win;
+    public GameObject UIGame;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -12,6 +13,7 @@ public class TheEnd : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             Win.SetActive(true);
+            UIGame.SetActive(false);
             Time.timeScale = 0;
         }
     }

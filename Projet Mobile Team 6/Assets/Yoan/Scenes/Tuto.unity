@@ -3279,6 +3279,7 @@ GameObject:
   - component: {fileID: 1266519879}
   - component: {fileID: 1266519878}
   - component: {fileID: 1266519877}
+  - component: {fileID: 1266519880}
   m_Layer: 0
   m_Name: Lose Zone
   m_TagString: Untagged
@@ -3299,6 +3300,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Win: {fileID: 1523327845}
+  UIGame: {fileID: 1886703553}
 --- !u!61 &1266519878
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3339,6 +3341,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1266519880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266519876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 411060de4483b5e4c9847cd3cbc18554, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetColor: {r: 0, g: 0.6075771, b: 1, a: 1}
+  needBoxIndicator: 1
+  needArrowIndicator: 1
+  needDistanceText: 0
+  indicator: {fileID: 0}
 --- !u!1001 &1274131593
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6393,6 +6412,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 7457560817299239084, guid: bb111e39c53f85f47835853c43b1d4fc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7677890544139526607, guid: bb111e39c53f85f47835853c43b1d4fc, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 37.17993
@@ -7034,6 +7057,7 @@ GameObject:
   - component: {fileID: 1699099703}
   - component: {fileID: 1699099702}
   - component: {fileID: 1699099701}
+  - component: {fileID: 1699099704}
   m_Layer: 0
   m_Name: Zone Fin
   m_TagString: Untagged
@@ -7054,6 +7078,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Win: {fileID: 1523327844}
+  UIGame: {fileID: 1886703553}
 --- !u!61 &1699099702
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7094,6 +7119,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1699099704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699099700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 411060de4483b5e4c9847cd3cbc18554, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetColor: {r: 1, g: 0.7076588, b: 0, a: 1}
+  needBoxIndicator: 1
+  needArrowIndicator: 1
+  needDistanceText: 0
+  indicator: {fileID: 0}
 --- !u!1 &1725455158
 GameObject:
   m_ObjectHideFlags: 0
@@ -7582,6 +7624,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1886703553 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8432318826872045442, guid: bb111e39c53f85f47835853c43b1d4fc, type: 3}
+  m_PrefabInstance: {fileID: 1523327843}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1911230105
 GameObject:
   m_ObjectHideFlags: 0
@@ -10026,6 +10073,23 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2033674994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2033674989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 411060de4483b5e4c9847cd3cbc18554, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetColor: {r: 1, g: 0, b: 0, a: 1}
+  needBoxIndicator: 1
+  needArrowIndicator: 1
+  needDistanceText: 0
+  indicator: {fileID: 0}
 --- !u!4 &2033674996 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7184029796717279061, guid: ad49521fc6795894eb2c595af1b119e5, type: 3}
