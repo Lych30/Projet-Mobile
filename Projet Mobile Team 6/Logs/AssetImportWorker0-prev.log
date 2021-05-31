@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
 OS: 'Windows 10 Home; OS build 19042.985; Version 2009; 64bit' Language: 'fr' Physical Memory: 16295 MB
@@ -801,3 +802,808 @@ Start importing Assets/Assets/Traps/Obstacles/Candles/candle2.png using Guid(fab
   Import took 0.015435 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+=======
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.985; Version 2009; 64bit' Language: 'fr' Physical Memory: 16295 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\2020.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Projet Mobile/Projet Mobile Team 6
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53848
+Successfully changed project path to: D:/Projet Mobile/Projet Mobile Team 6
+D:/Projet Mobile/Projet Mobile Team 6
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 64.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.7f1 (dd97f2c94397)
+[Subsystems] Discovering subsystems at path C:/Program Files/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Projet Mobile/Projet Mobile Team 6/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   27.21.14.6230
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/2020.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002456 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 58.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.365 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004222 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 58.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+GPGSUpgrader start
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GooglePlayGames.Editor.GPGSUpgrader:.cctor () (at Assets/GooglePlayGames/Editor/GPGSUpgrader.cs:38)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/GooglePlayGames/Editor/GPGSUpgrader.cs Line: 38)
+
+GPGSUpgrader done
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GooglePlayGames.Editor.GPGSUpgrader:.cctor () (at Assets/GooglePlayGames/Editor/GPGSUpgrader.cs:105)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/GooglePlayGames/Editor/GPGSUpgrader.cs Line: 105)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.022 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3227 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.8 MB.
+System memory in use after: 141.9 MB.
+
+Unloading 68 unused Assets to reduce memory usage. Loaded Objects now: 3638.
+Total: 2.614800 ms (FindLiveObjects: 0.379600 ms CreateObjectMapping: 0.086800 ms MarkObjects: 2.018000 ms  DeleteObjects: 0.129300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Yoan/Assets/Object/doubleporte.png
+  artifactKey: Guid(f86562ab54492044ea00f6d0a51745d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/doubleporte.png using Guid(f86562ab54492044ea00f6d0a51745d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c833a85b4c44743beecea17cf293b1') in 0.139645 seconds
+  Import took 0.144732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Yoan/Assets/Object/ombre_lustre.png
+  artifactKey: Guid(5ef8d48a9af78864b84b0d9a22306047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/ombre_lustre.png using Guid(5ef8d48a9af78864b84b0d9a22306047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad42f2248964c4a812f1b7319277145') in 0.046825 seconds
+  Import took 0.051467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Yoan/Assets/Object/doubleporte.png
+  artifactKey: Guid(f86562ab54492044ea00f6d0a51745d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/doubleporte.png using Guid(f86562ab54492044ea00f6d0a51745d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c833a85b4c44743beecea17cf293b1') in 0.008257 seconds
+  Import took 0.012843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Yoan/Assets/Object/LustreMat.mat
+  artifactKey: Guid(2b458301a13c6504b8645deb24dabcc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/LustreMat.mat using Guid(2b458301a13c6504b8645deb24dabcc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230362afe502cabbb975193623a5edf2') in 0.152091 seconds
+  Import took 0.156756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Yoan/Assets/Object/StatueMat.mat
+  artifactKey: Guid(35a5cacbcfdb091469d413529bfb6562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/StatueMat.mat using Guid(35a5cacbcfdb091469d413529bfb6562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35a44cd70bc939c1000d41dabe10de1') in 0.009542 seconds
+  Import took 0.014444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Yoan/Assets/Object
+  artifactKey: Guid(6354abae41796544297ebfce4d05c641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object using Guid(6354abae41796544297ebfce4d05c641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e3ae2e83c5f69b8549b4244bd526ac') in 0.002220 seconds
+  Import took 0.007452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Yoan/Assets
+  artifactKey: Guid(3621f2ed68a202f4b80a012f79ba3f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets using Guid(3621f2ed68a202f4b80a012f79ba3f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c064ef60ed007eae345ae3f0ce1a65e') in 0.002348 seconds
+  Import took 0.007600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Yoan/Assets/Object/piano1.png
+  artifactKey: Guid(f05c5e03fdcf96d459efaf5445739df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/piano1.png using Guid(f05c5e03fdcf96d459efaf5445739df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f12efc6137d7f61c8ad2bbb9a2071a3') in 0.012764 seconds
+  Import took 0.017547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Yoan/Assets/Object/statue1 (3).png
+  artifactKey: Guid(22c6c69f75e802248bfdc3df01ff3b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/statue1 (3).png using Guid(22c6c69f75e802248bfdc3df01ff3b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb88c26b2572105cf5b2bc159b356aa') in 0.010949 seconds
+  Import took 0.016204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Yoan/Assets/Object/lustrex2.png
+  artifactKey: Guid(e4eef02a4d7465c46846698f7a1540ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/lustrex2.png using Guid(e4eef02a4d7465c46846698f7a1540ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '354f12bda742ac98bc17bd3eb9b1cdcd') in 0.010084 seconds
+  Import took 0.015297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Yoan
+  artifactKey: Guid(a7564b1a3b4ce8a42a87d298683f9d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan using Guid(a7564b1a3b4ce8a42a87d298683f9d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7c9842586c91c112a33d78a7d6158b') in 0.002647 seconds
+  Import took 0.007655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 178.759090 seconds.
+  path: Assets/Yoan/Assets/Object/PianoMat.mat
+  artifactKey: Guid(f726aa2c0766ea9479dda29d4934ab85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/PianoMat.mat using Guid(f726aa2c0766ea9479dda29d4934ab85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb8fd2906874386deac7eb78b3b400f') in 0.009597 seconds
+  Import took 0.015641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.349101 seconds.
+  path: Assets/Assets/UI/UI/1.png
+  artifactKey: Guid(4755694eb4a3d3745bd5f4b4bb35cbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI/UI/1.png using Guid(4755694eb4a3d3745bd5f4b4bb35cbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4665d8159a4a45daa71a2ad28b259681') in 0.010612 seconds
+  Import took 0.016281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Assets/UI/Dialogue/boite2.png
+  artifactKey: Guid(902905dd194e9a9408c718b0e0693ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI/Dialogue/boite2.png using Guid(902905dd194e9a9408c718b0e0693ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b6573fa256ce4f0b32351882b89c2ea') in 0.042398 seconds
+  Import took 0.047533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Assets/UI/Boutons/bouton 3.png
+  artifactKey: Guid(4b52aaa3cdde6d74cb76fb1c350d0633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI/Boutons/bouton 3.png using Guid(4b52aaa3cdde6d74cb76fb1c350d0633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a563806cf78e7f2dcbc26cd686bf9593') in 0.014395 seconds
+  Import took 0.018836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Assets/Traps/Obstacles/Bookcase/biblio_front4.png
+  artifactKey: Guid(800afad09e065194ea9cd781d4b305c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Traps/Obstacles/Bookcase/biblio_front4.png using Guid(800afad09e065194ea9cd781d4b305c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34e27695e09acedfb7ad13c96cd2494') in 0.015693 seconds
+  Import took 0.020359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Assets/Traps/Obstacles/Bookcase/biblio_front1.png
+  artifactKey: Guid(a54e37d49c4949d46a908045d527ac88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Traps/Obstacles/Bookcase/biblio_front1.png using Guid(a54e37d49c4949d46a908045d527ac88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8618814a60d08504c8adbfb7e91ad6ef') in 0.046910 seconds
+  Import took 0.051356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Assets/UI/Boutons/bouton 2.png
+  artifactKey: Guid(b83f60a94bced0f45bb39832925ccbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI/Boutons/bouton 2.png using Guid(b83f60a94bced0f45bb39832925ccbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29196cf17a2f7ebdbd55603ecf4e02b2') in 0.018309 seconds
+  Import took 0.023508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/PathFinding/AstarPathfindingProject/Editor/EditorAssets/images/ArrowUp.png
+  artifactKey: Guid(b1722c752c8754c5281b2efd6cf8477c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathFinding/AstarPathfindingProject/Editor/EditorAssets/images/ArrowUp.png using Guid(b1722c752c8754c5281b2efd6cf8477c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd44dce3aa3656902f7cf964fe40501e') in 0.015426 seconds
+  Import took 0.020904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Assets/Traps/Obstacles/Bookcase/biblio_side1.png
+  artifactKey: Guid(d9367deb8f8cb4f4c85c2c2d5b122a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Traps/Obstacles/Bookcase/biblio_side1.png using Guid(d9367deb8f8cb4f4c85c2c2d5b122a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3865c073c71d796fe3fbc6ed6fafa6b0') in 0.044285 seconds
+  Import took 0.049625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Darius/Assets-UI-Menu/bouton 1.png
+  artifactKey: Guid(8704d3c358b0eba44a8c2d42ccac006c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darius/Assets-UI-Menu/bouton 1.png using Guid(8704d3c358b0eba44a8c2d42ccac006c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e69c9314418dfe5d6ca51507017cd569') in 0.011131 seconds
+  Import took 0.016233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Assets/UI/Boutons/bouton 2 appui.png
+  artifactKey: Guid(719c46e3c543b7d4cb9317c8f4978d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI/Boutons/bouton 2 appui.png using Guid(719c46e3c543b7d4cb9317c8f4978d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4147f29c4fdca31191dbb0627282d1c4') in 0.011399 seconds
+  Import took 0.016915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/PathFinding/AstarPathfindingProject/Editor/EditorAssets/images/ArrowDown.png
+  artifactKey: Guid(12ea2fbedc5cc4bd191d795f44b2de75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathFinding/AstarPathfindingProject/Editor/EditorAssets/images/ArrowDown.png using Guid(12ea2fbedc5cc4bd191d795f44b2de75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '256669f496dac0d6f33b4b5cd2c32f39') in 0.010122 seconds
+  Import took 0.016147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Assets/Traps/Obstacles/Bookcase/biblio_front3.png
+  artifactKey: Guid(a2be0810e20137d47a915d0d274eec4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Traps/Obstacles/Bookcase/biblio_front3.png using Guid(a2be0810e20137d47a915d0d274eec4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17d95db6cfa59772b024ab00585e4e7') in 0.025476 seconds
+  Import took 0.030751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Darius/Assets-UI-Menu/bouton 1 appui.png
+  artifactKey: Guid(43f9ca6cbbf878544ade64c50ca83411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darius/Assets-UI-Menu/bouton 1 appui.png using Guid(43f9ca6cbbf878544ade64c50ca83411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e47113a62ad7fd79ddd34fa3909a7b') in 0.023270 seconds
+  Import took 0.027962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Darius/Assets-UI-Menu/bouton 2.png
+  artifactKey: Guid(679d0b3d8b1c252468792b5a67b9977e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darius/Assets-UI-Menu/bouton 2.png using Guid(679d0b3d8b1c252468792b5a67b9977e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8abd7273845592afb72ce89254f60b52') in 0.013679 seconds
+  Import took 0.018682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4.png
+  artifactKey: Guid(77bba605017e10a40b70304c4862276f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv4.png using Guid(77bba605017e10a40b70304c4862276f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90fda6f51b54aa783c9ba03da82025ff') in 0.052662 seconds
+  Import took 0.057505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Assets/UI/Boutons/bouton 1.png
+  artifactKey: Guid(d6aaa0dd97434d34daa5e1059a6e4136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI/Boutons/bouton 1.png using Guid(d6aaa0dd97434d34daa5e1059a6e4136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf68db44761456b53e3622eef16ba134') in 0.011972 seconds
+  Import took 0.016863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Assets/UI/UI/2.png
+  artifactKey: Guid(8d1ed080600a23640a2c25141f5918e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI/UI/2.png using Guid(8d1ed080600a23640a2c25141f5918e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e3053a2f1ae03990bb64b66926a205e') in 0.009649 seconds
+  Import took 0.015710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Assets/UI/Dialogue/boite de dialogue.png
+  artifactKey: Guid(cb28c462cc85c8e4eb795a1b27383b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI/Dialogue/boite de dialogue.png using Guid(cb28c462cc85c8e4eb795a1b27383b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8495b638e1d3ef9518dad7bbef0640d4') in 0.009964 seconds
+  Import took 0.015604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Assets/UI/UI/1.png
+  artifactKey: Guid(4755694eb4a3d3745bd5f4b4bb35cbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI/UI/1.png using Guid(4755694eb4a3d3745bd5f4b4bb35cbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4665d8159a4a45daa71a2ad28b259681') in 0.008883 seconds
+  Import took 0.013910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Assets/Traps/Obstacles/Bookcase/biblio_front2.png
+  artifactKey: Guid(09edbd0335ff1a0478ac8e0071e433e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Traps/Obstacles/Bookcase/biblio_front2.png using Guid(09edbd0335ff1a0478ac8e0071e433e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50cb5ed1a54b6af26d15a65a0e9dcac8') in 0.010077 seconds
+  Import took 0.015659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Assets/Traps/Manifestation/Bathtub/bathtub1.png
+  artifactKey: Guid(febedee672cfe224ea806e60dafd1bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Traps/Manifestation/Bathtub/bathtub1.png using Guid(febedee672cfe224ea806e60dafd1bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b167b10b4d87673a9b590daf4eb5bc') in 0.009462 seconds
+  Import took 0.014932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Assets/UI/UI/3.png
+  artifactKey: Guid(17ee87db14432014294abd1dfd043d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI/UI/3.png using Guid(17ee87db14432014294abd1dfd043d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db4689ec8e285ac262f546ed3b52e67') in 0.010781 seconds
+  Import took 0.016962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/PathFinding/AstarPathfindingProject/Editor/EditorAssets/images/ArrowDown_on.png
+  artifactKey: Guid(d8951099054c64beaaa49d675d71cfcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathFinding/AstarPathfindingProject/Editor/EditorAssets/images/ArrowDown_on.png using Guid(d8951099054c64beaaa49d675d71cfcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30d8ac9a9369d202cb8762455333070') in 0.006518 seconds
+  Import took 0.012067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv3 (1).png
+  artifactKey: Guid(1bd15fa21595bcd4383d2750ab4b2452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Tilemap Yoan/Tile non découpée/boisv3 (1).png using Guid(1bd15fa21595bcd4383d2750ab4b2452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea292c84bafb5c1d8428e08b3c57bff') in 0.050264 seconds
+  Import took 0.055759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/PathFinding/AstarPathfindingProject/Editor/EditorAssets/images/ArrowUp_on.png
+  artifactKey: Guid(4c914fdaf554243fe9fb26afc323caef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathFinding/AstarPathfindingProject/Editor/EditorAssets/images/ArrowUp_on.png using Guid(4c914fdaf554243fe9fb26afc323caef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21bbb6c2a9984406c81d75983502a070') in 0.005926 seconds
+  Import took 0.010379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Assets/UI/Boutons/bouton 1 appui.png
+  artifactKey: Guid(7cb08a0fadfe8d745ada9794d4e61ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI/Boutons/bouton 1 appui.png using Guid(7cb08a0fadfe8d745ada9794d4e61ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc747f4ffb9028a0433db7f6fd966c97') in 0.012524 seconds
+  Import took 0.017473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Assets/Traps/Obstacles/Bookcase/biblio_side3.png
+  artifactKey: Guid(a29e4fcd45d5ee340abec010632b651a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Traps/Obstacles/Bookcase/biblio_side3.png using Guid(a29e4fcd45d5ee340abec010632b651a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac38026241fa61986eff3e547f36417d') in 0.033696 seconds
+  Import took 0.038259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Darius/Assets-UI-Menu/bouton 2 appui.png
+  artifactKey: Guid(12001b3033ca2774a90427e363b41c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darius/Assets-UI-Menu/bouton 2 appui.png using Guid(12001b3033ca2774a90427e363b41c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c241bbbf9ef7e037ac132ce34b18a5c0') in 0.009285 seconds
+  Import took 0.014351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Assets/UI/Boutons/bouton 3 appui.png
+  artifactKey: Guid(d0c2ac2ec07496c44beceb1b7a66897f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI/Boutons/bouton 3 appui.png using Guid(d0c2ac2ec07496c44beceb1b7a66897f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca908da073f678cc431d77c6c3a79bb') in 0.009757 seconds
+  Import took 0.014742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Assets/Traps/Manifestation/Bathtub/bathtub2.png
+  artifactKey: Guid(68c6f20167b34064fa0ca10fd3741047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Traps/Manifestation/Bathtub/bathtub2.png using Guid(68c6f20167b34064fa0ca10fd3741047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a954acb0424f43a4a1ac1401d095a21d') in 0.026908 seconds
+  Import took 0.032741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Assets/Traps/Obstacles/Bookcase/biblio_side2.png
+  artifactKey: Guid(17164888388448547aa477a0ba841b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Traps/Obstacles/Bookcase/biblio_side2.png using Guid(17164888388448547aa477a0ba841b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0d57b227d2c9a132f286bcb99cdfb2') in 0.009867 seconds
+  Import took 0.015087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Assets/Traps/Obstacles/Bookcase/biblio_side4.png
+  artifactKey: Guid(91ee37feb6e118744926d0d55c6a2733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Traps/Obstacles/Bookcase/biblio_side4.png using Guid(91ee37feb6e118744926d0d55c6a2733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f276d2fca6f810f4a2e58b96e7c1f63') in 0.033098 seconds
+  Import took 0.038370 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004428 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+GPGSUpgrader start
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GooglePlayGames.Editor.GPGSUpgrader:.cctor () (at Assets/GooglePlayGames/Editor/GPGSUpgrader.cs:38)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/GooglePlayGames/Editor/GPGSUpgrader.cs Line: 38)
+
+GPGSUpgrader done
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GooglePlayGames.Editor.GPGSUpgrader:.cctor () (at Assets/GooglePlayGames/Editor/GPGSUpgrader.cs:105)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/GooglePlayGames/Editor/GPGSUpgrader.cs Line: 105)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.022 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.2 MB.
+System memory in use after: 139.3 MB.
+
+Unloading 56 unused Assets to reduce memory usage. Loaded Objects now: 3748.
+Total: 2.772200 ms (FindLiveObjects: 0.447000 ms CreateObjectMapping: 0.102400 ms MarkObjects: 2.118500 ms  DeleteObjects: 0.103400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004026 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+GPGSUpgrader start
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GooglePlayGames.Editor.GPGSUpgrader:.cctor () (at Assets/GooglePlayGames/Editor/GPGSUpgrader.cs:38)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/GooglePlayGames/Editor/GPGSUpgrader.cs Line: 38)
+
+GPGSUpgrader done
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GooglePlayGames.Editor.GPGSUpgrader:.cctor () (at Assets/GooglePlayGames/Editor/GPGSUpgrader.cs:105)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/GooglePlayGames/Editor/GPGSUpgrader.cs Line: 105)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.958 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.3 MB.
+System memory in use after: 139.4 MB.
+
+Unloading 56 unused Assets to reduce memory usage. Loaded Objects now: 3752.
+Total: 3.269100 ms (FindLiveObjects: 0.419600 ms CreateObjectMapping: 0.090400 ms MarkObjects: 2.633600 ms  DeleteObjects: 0.124200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003886 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+GPGSUpgrader start
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GooglePlayGames.Editor.GPGSUpgrader:.cctor () (at Assets/GooglePlayGames/Editor/GPGSUpgrader.cs:38)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/GooglePlayGames/Editor/GPGSUpgrader.cs Line: 38)
+
+GPGSUpgrader done
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GooglePlayGames.Editor.GPGSUpgrader:.cctor () (at Assets/GooglePlayGames/Editor/GPGSUpgrader.cs:105)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/GooglePlayGames/Editor/GPGSUpgrader.cs Line: 105)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.954 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.3 MB.
+System memory in use after: 139.4 MB.
+
+Unloading 56 unused Assets to reduce memory usage. Loaded Objects now: 3756.
+Total: 3.061500 ms (FindLiveObjects: 0.474000 ms CreateObjectMapping: 0.098700 ms MarkObjects: 2.359200 ms  DeleteObjects: 0.128100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003811 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+GPGSUpgrader start
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GooglePlayGames.Editor.GPGSUpgrader:.cctor () (at Assets/GooglePlayGames/Editor/GPGSUpgrader.cs:38)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/GooglePlayGames/Editor/GPGSUpgrader.cs Line: 38)
+
+GPGSUpgrader done
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GooglePlayGames.Editor.GPGSUpgrader:.cctor () (at Assets/GooglePlayGames/Editor/GPGSUpgrader.cs:105)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/GooglePlayGames/Editor/GPGSUpgrader.cs Line: 105)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.969 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.3 MB.
+System memory in use after: 139.4 MB.
+
+Unloading 56 unused Assets to reduce memory usage. Loaded Objects now: 3760.
+Total: 3.262900 ms (FindLiveObjects: 0.422300 ms CreateObjectMapping: 0.088200 ms MarkObjects: 2.622900 ms  DeleteObjects: 0.128500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003953 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+GPGSUpgrader start
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GooglePlayGames.Editor.GPGSUpgrader:.cctor () (at Assets/GooglePlayGames/Editor/GPGSUpgrader.cs:38)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/GooglePlayGames/Editor/GPGSUpgrader.cs Line: 38)
+
+GPGSUpgrader done
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GooglePlayGames.Editor.GPGSUpgrader:.cctor () (at Assets/GooglePlayGames/Editor/GPGSUpgrader.cs:105)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/GooglePlayGames/Editor/GPGSUpgrader.cs Line: 105)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.018 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.3 MB.
+System memory in use after: 139.5 MB.
+
+Unloading 56 unused Assets to reduce memory usage. Loaded Objects now: 3764.
+Total: 3.346600 ms (FindLiveObjects: 0.476800 ms CreateObjectMapping: 0.099000 ms MarkObjects: 2.631300 ms  DeleteObjects: 0.138300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 764.181745 seconds.
+  path: Assets/Assets/IA/Anim/Hero.controller
+  artifactKey: Guid(916a4bf4c0c996c4d9434703be0ac2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/IA/Anim/Hero.controller using Guid(916a4bf4c0c996c4d9434703be0ac2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f0dba904f3a514793126254f73d21dd') in 0.024041 seconds
+  Import took 0.030114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 236.001572 seconds.
+  path: Assets/Yoan/Assets/Object/LustreMat.mat
+  artifactKey: Guid(2b458301a13c6504b8645deb24dabcc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/LustreMat.mat using Guid(2b458301a13c6504b8645deb24dabcc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1300f5bc5a1b89817a26ab53091544') in 0.128793 seconds
+  Import took 0.135359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Yoan/Assets/Object/StatueMat.mat
+  artifactKey: Guid(35a5cacbcfdb091469d413529bfb6562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/StatueMat.mat using Guid(35a5cacbcfdb091469d413529bfb6562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c64d99b680daa69756a0450c2b64252') in 0.010478 seconds
+  Import took 0.015354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Yoan/Assets/Object/PianoMat.mat
+  artifactKey: Guid(f726aa2c0766ea9479dda29d4934ab85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/PianoMat.mat using Guid(f726aa2c0766ea9479dda29d4934ab85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c3bd2ce86650c09b11a1c78505da55') in 0.011816 seconds
+  Import took 0.017348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.244209 seconds.
+  path: Assets/Yoan/Assets/Object/Materials
+  artifactKey: Guid(5d734084bb6cab04ead7e1b18db6691b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/Materials using Guid(5d734084bb6cab04ead7e1b18db6691b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '101a4e48db0a8db10c7e254d237bb450') in 0.002443 seconds
+  Import took 0.007919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049881 seconds.
+  path: Assets/Yoan/Assets/Object/Materials/statue1 (1).mat
+  artifactKey: Guid(2f79cb06881d30341b6052d390489b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/Materials/statue1 (1).mat using Guid(2f79cb06881d30341b6052d390489b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ff69493b2e99254c3bc21b208b8698') in 0.021924 seconds
+  Import took 0.026984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.831081 seconds.
+  path: Assets/Yoan/Assets/Object/Trap
+  artifactKey: Guid(89b67b195bb86064a8bc2276e446e718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/Trap using Guid(89b67b195bb86064a8bc2276e446e718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a27ced9c494f4ae8366365bd9af147') in 0.002047 seconds
+  Import took 0.007149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057726 seconds.
+  path: Assets/Yoan/Assets/Object/Trap/piano5.png
+  artifactKey: Guid(8091c1ab968a72a41b594768e9b8f653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/Trap/piano5.png using Guid(8091c1ab968a72a41b594768e9b8f653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c837f771dcf04f77cd01c7e14b00e3ee') in 0.051410 seconds
+  Import took 0.056650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Yoan/Assets/Object/Trap/tilemap_porteouverteT.png
+  artifactKey: Guid(3e0f52ca837e19244bcfdcff634eeeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/Trap/tilemap_porteouverteT.png using Guid(3e0f52ca837e19244bcfdcff634eeeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc608ba822efe60edbf5ca751639752') in 0.010196 seconds
+  Import took 0.015022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Yoan/Assets/Object/Trap/porte_face_ouverte.png
+  artifactKey: Guid(93dd1adb36229494b84f28d8d227a83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/Trap/porte_face_ouverte.png using Guid(93dd1adb36229494b84f28d8d227a83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f3f263942127ba8e6e8f567999e9620') in 0.013093 seconds
+  Import took 0.018736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Yoan/Assets/Object/Trap/porte profil ouverte (3).png
+  artifactKey: Guid(e4896957df3b12b4791b1a6dde263410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/Trap/porte profil ouverte (3).png using Guid(e4896957df3b12b4791b1a6dde263410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4474840a824e3007935e936b5d2c6917') in 0.015683 seconds
+  Import took 0.021131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Yoan/Assets/Object/Trap/tilemap_portefermée.png
+  artifactKey: Guid(fe3c0f632d1352742b05b3bc55ef9f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoan/Assets/Object/Trap/tilemap_portefermée.png using Guid(fe3c0f632d1352742b05b3bc55ef9f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d43a884e46cf9358aa7a3f816f2195') in 0.009858 seconds
+  Import took 0.014394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.303421 seconds.
+  path: Assets/Assets/Traps/Obstacles/Candles/candle1.png
+  artifactKey: Guid(878ebc6a7ee55d348ba778b0e668b60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Traps/Obstacles/Candles/candle1.png using Guid(878ebc6a7ee55d348ba778b0e668b60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73cd22de4309f1d8ac1c36456ffde0f0') in 0.008877 seconds
+  Import took 0.014592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Assets/Traps/Obstacles/Candles/candle2.png
+  artifactKey: Guid(fabf8225dbc684b4895c853af0733e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Traps/Obstacles/Candles/candle2.png using Guid(fabf8225dbc684b4895c853af0733e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994a1d2a2f4497ac399772981bf66838') in 0.025095 seconds
+  Import took 0.030397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Assets/Traps/Obstacles/Candles/candle_off.png
+  artifactKey: Guid(542a275f2f4b8fa4b9ef6ace233d05b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Traps/Obstacles/Candles/candle_off.png using Guid(542a275f2f4b8fa4b9ef6ace233d05b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb31ae8f00c07895e77e79ddfb2a348f') in 0.022573 seconds
+  Import took 0.028027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Assets/Traps/Obstacles/Candles/candle2.png
+  artifactKey: Guid(fabf8225dbc684b4895c853af0733e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Traps/Obstacles/Candles/candle2.png using Guid(fabf8225dbc684b4895c853af0733e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994a1d2a2f4497ac399772981bf66838') in 0.010466 seconds
+  Import took 0.015435 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+>>>>>>> main
